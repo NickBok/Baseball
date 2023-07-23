@@ -1,2 +1,2 @@
-# :baseball Baseball :baseball
+# :baseball: Baseball :baseball:
 Baseball Projects
