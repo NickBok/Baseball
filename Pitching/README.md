@@ -9,3 +9,5 @@ CD --> 'gamedate'+'hometeam' --> zip code --> temp, humidity, air pressure --> c
 #'game_date','home_team',
 
 https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-of-a-sphere/
+
+http://baseball.physics.illinois.edu/trackman/SpinAxis.pdf
