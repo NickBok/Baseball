@@ -1,6 +1,12 @@
 # **💪 Pitching Projects 💪**
 
+https://blogs.fangraphs.com/contributions-to-variation-in-fly-ball-distances/
+
 **CD**
+
+https://www.drivelinebaseball.com/2019/09/mastering-the-axis-of-rotation-a-thorough-review-of-spin-axis-in-three-dimensions/
+
+https://www.baseballprospectus.com/news/article/81981/moonshot-drag-2023-home-runs-ball/
 
 # not pos w hitting, have to transfer for a pitching project :(
 
