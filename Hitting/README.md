@@ -2,6 +2,8 @@
 
 TODO:
 
+https://blogs.fangraphs.com/giancarlo-stantons-long-single/
+
 http://baseball.physics.illinois.edu/ProcediaEngineering34Spin.pdf
 
 http://baseball.physics.illinois.edu/HRProbTemp.pdf
