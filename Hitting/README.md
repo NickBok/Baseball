@@ -8,7 +8,6 @@ Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB S
 ## **Table of Context**
 
 0. [Link to CSV]()
-0.5. [Part 0, Data Imputation(#TODO)
 1. [Part 1, Data Exploration](#Variables)
 2. [Part 2, Feature Engineering](#Installation)
 3. [Part 3, Model Selection](#Pulling-Data)
