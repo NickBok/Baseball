@@ -1,9 +1,9 @@
-# **Distance Predictor Part 1**
+# **Distance Predictor**
 Author: Declan Costello
 
 ## **Overview**
 
-Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of hitting and weather. I encourage you to view Parts 3-5 on [NBViewer](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Hitting/) as [Bokeh](http://bokeh.org/) does not render on Github.
+Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of hitting and weather. First I eexplore given feature trends in the data set, followed my creating my own. After selecting XGBost as the best model, I investiage the chosen parameters to see which ones have the best return on investments, Finalling I put the pipeline together and isplay the results. I encourage you to view Parts 3-5 on [NBViewer](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Hitting/) as [Bokeh](http://bokeh.org/) does not render on Github.
 
 ## **Table of Context**
 
