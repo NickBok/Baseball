@@ -1,5 +1,7 @@
 # **🥊 Hitting Projects 🥊**
 
+LINK TO Part 3-5 CSV:
+
 TODO:
 
 https://blogs.fangraphs.com/giancarlo-stantons-long-single/
