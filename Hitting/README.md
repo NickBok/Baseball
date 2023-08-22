@@ -3,7 +3,7 @@ Author: Declan Costello
 
 ## **Overview**
 
-Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of the effects of baseball and weather.
+Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of hitting and weather.
 
 ## **Table of Context**
 
