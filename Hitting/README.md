@@ -1,6 +1,19 @@
-# **🥊 Hitting Projects 🥊**
+# **Distance Predictor Part 1**
+Author: Declan Costello
 
-LINK TO Part 3-5 CSV:
+## **Overview**
+
+Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of the effects of baseball and weather.
+
+## **Table of Context**
+
+0. [Link to CSV]()
+0.5. [Part 0, Data Imputation(#TODO)
+1. [Part 1, Data Exploration](#Variables)
+2. [Part 2, Feature Engineering](#Installation)
+3. [Part 3, Model Selection](#Pulling-Data)
+4. [Part 4, Model ROI](#Inspecting-Data)
+5. [Part 5, Final Pipeline](#Exploring-Data)
 
 TODO:
 
