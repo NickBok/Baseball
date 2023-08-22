@@ -25,8 +25,6 @@ TODO:
 - Consider using [pitch counts](https://blogs.fangraphs.com/hitters-are-losing-more-long-plate-appearances/)
 - [Compare to NASA](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/#play-ball)
 
-http://baseball.physics.illinois.edu/HRReport2019.pdf
+FUTURE:
 
-https://blogs.fangraphs.com/hitters-are-losing-more-long-plate-appearances/
-
-https://blogs.fangraphs.com/an-iota-of-xwoba-does-overperformance-improve-confidence/
+- Use to predict [WAR](https://blogs.fangraphs.com/an-iota-of-xwoba-does-overperformance-improve-confidence/)
