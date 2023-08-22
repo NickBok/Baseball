@@ -3,16 +3,16 @@ Author: Declan Costello
 
 ## **Overview**
 
-Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of hitting and weather.
+Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB Season, I predict how far a batted ball will travel. I hope to provide value to the baseball community by combining my interests of hitting and weather. I encourage you to view Parts 3-5 on [NBViewer](https://nbviewer.org/github/dec1costello/Baseball/tree/main/Hitting/) as [Bokeh](http://bokeh.org/) does not render on Github.
 
 ## **Table of Context**
 
 0. [Link to CSV]()
-1. [Part 1, Data Exploration](#Variables)
-2. [Part 2, Feature Engineering](#Installation)
-3. [Part 3, Model Selection](#Pulling-Data)
-4. [Part 4, Model ROI](#Inspecting-Data)
-5. [Part 5, Final Pipeline](#Exploring-Data)
+1. [Part 1, Data Exploration](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb)
+2. [Part 2, Feature Engineering](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-2.ipynb)
+3. [Part 3, Model Selection](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-3.ipynb)
+4. [Part 4, Model ROI](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-4.ipynb)
+5. [Part 5, Final Pipeline](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-5.ipynb)
 
 TODO:
 
