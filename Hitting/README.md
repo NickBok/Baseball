@@ -13,16 +13,17 @@ Using [Pybaseball Data](https://github.com/jldbc/pybaseball) from the 2022 MLB S
 3. [Part 3, Model Selection](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-3.ipynb)
 4. [Part 4, Model ROI](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-4.ipynb)
 5. [Part 5, Final Pipeline](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-5.ipynb)
+6. [Part 6, Compare to NASA](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/#play-ball)
 
 TODO:
 
-https://blogs.fangraphs.com/giancarlo-stantons-long-single/
-
-http://baseball.physics.illinois.edu/ProcediaEngineering34Spin.pdf
-
-http://baseball.physics.illinois.edu/HRProbTemp.pdf
-
-https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/
+- Impute
+- Add in Weights
+- Add Humidor Stadiums, humidity, and [temp](http://baseball.physics.illinois.edu/HRProbTemp.pdf) during games
+- Add in VAA vs LA, agg Dis
+- Add in HAA vs Spray, agg Dis
+- Consider using [pitch counts](https://blogs.fangraphs.com/hitters-are-losing-more-long-plate-appearances/)
+- [Compare to NASA](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/#play-ball)
 
 http://baseball.physics.illinois.edu/HRReport2019.pdf
 
