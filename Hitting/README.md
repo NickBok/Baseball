@@ -28,8 +28,3 @@ Welcome to the **Distance Predictor**. This Project harnesses data from the [Pyb
 ## **Future Prospects**
 
 A potential avenue for expansion lies in the utilization of the model to predict [WAR](https://blogs.fangraphs.com/an-iota-of-xwoba-does-overperformance-improve-confidence/), thereby delving deeper into the predictive dimensions of player performance.
-
-Your engagement with this endeavor is deeply valued and appreciated.
-
----
-Feel free to adapt and customize the refined markdown to match your preferences and any specific requirements.
