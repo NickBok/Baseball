@@ -88,8 +88,7 @@ In Part 3, I create features based off the given data such as Dynamic Hard Hit r
 - Impute missing values
 - Incorporate weighting factors
 - Integrate Humidor Stadium data, humidity, and [temperature](http://baseball.physics.illinois.edu/HRProbTemp.pdf) during games
-- Integrate Variables At-bat vs. Launch Angle, aggregated distance
-- Incorporate Hit Angle at-bat vs. Spray Angle, aggregated distance
+- pitch location vs la for top bottom, and spray vs side side pitch locations
 - Consider utilization of [pitch counts](https://blogs.fangraphs.com/hitters-are-losing-more-long-plate-appearances/)
 - Conduct a Comparative Analysis with NASA's insights: [Comparison Link](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/#play-ball)
 
