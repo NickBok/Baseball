@@ -26,10 +26,10 @@ In Part 1, I explore the given fearues within Pybaseball
 <thead>
   <tr>
     <th>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">Possible Feature Correlations</a>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">CORR Heatmap</a>
     </th>
     <th>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">XWoba</a>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">WOBA Heatmap</a>
     </th>
   </tr>
 </thead>
