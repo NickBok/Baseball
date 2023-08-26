@@ -50,7 +50,7 @@ In Part 2, I create features based off the given data such as Dynamic Hard Hit r
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/d3da404a-7cd9-4bdc-a6bf-cb17bbe3c485" alt="Event Scatter" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/e04ebc40-0ec0-4d2b-8a01-a59e269f0741" alt="Event Scatter" />
       </a>
     </td>
     <td>
