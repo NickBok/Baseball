@@ -23,21 +23,12 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 In Part 1, I explore the given fearues within Pybaseball
 
 <table>
-<thead>
-  <tr>
-    <th>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">CORR Heatmap</a>
-    </th>
-    <th>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">WOBA Heatmap</a>
-    </th>
-  </tr>
-</thead>
+
 <tbody>
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/666c6e90-9e3c-4937-b819-69e2da06b361" alt="CORR Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/2afc1af9-9a7b-4b4a-9c0a-f19c2e123a34" alt="Event Scatter" />
       </a>
     </td>
     <td>
