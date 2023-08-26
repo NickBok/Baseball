@@ -33,7 +33,7 @@ In Part 1, I explore the given fearues within Pybaseball
     </td>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/320489f3-a411-44d2-92c7-d5f69419ad3b" alt="WOBA Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/68cceac6-174b-4f7e-80e7-d5669d55f849" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
