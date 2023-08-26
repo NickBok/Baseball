@@ -37,12 +37,12 @@ In Part 1, I explore the given fearues within Pybaseball
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/e92909f7-4c0e-4d5b-817c-40eb7b24212f" alt="Feats Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/e92909f7-4c0e-4d5b-817c-40eb7b24212f" alt="CORR Heatmap" />
       </a>
     </td>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/c20052f4-6361-4033-b35d-0429d0b5f675" alt="XWoba Graph" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/beb0e425-99f4-4cfb-8eb1-178178025951" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
