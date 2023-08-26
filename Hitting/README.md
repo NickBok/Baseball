@@ -83,6 +83,23 @@ In Part 3, I create features based off the given data such as Dynamic Hard Hit r
 </tbody>
 </table>
 
+
+
+## **Part 5**
+
+<table>
+
+  <tr>
+    <td>residus</td>
+    <td>a vs p</td>
+  </tr>
+    <tr>
+    <th 
+colspan="2"
+>Feature importance h bar</th>
+  </tr>
+</table>
+
 ## **Task List (TODO)**
 
 - Impute missing values
