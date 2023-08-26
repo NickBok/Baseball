@@ -42,7 +42,9 @@ In Part 1, I explore the given fearues within Pybaseball
 
 ## **Part 2 Description**
 
-In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball
+In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball
+
+
 
 <table>
 
@@ -56,6 +58,25 @@ In Part 2, I create features based off the given data such as Dynamic Hard Hit r
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-2.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/4e07ccec-4cec-42c5-92c1-1d602053b812" alt="WOBA Heatmap" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+## **Part 3 Description**
+
+In Part 3, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball
+
+
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-2.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" alt="Event Scatter" />
       </a>
     </td>
 </tr>
