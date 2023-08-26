@@ -16,7 +16,6 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 3. [Part 3, Model Selection: XGBoost](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-3.ipynb)
 4. [Part 4, XGBoost Parameter Optimization and Insights](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-4.ipynb)
 5. [Part 5, Pipeline Synthesis and Results Showcase](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-5.ipynb)
-6. [Part 6, Comparative Analysis with NASA](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/#play-ball)
 
 ## **Task List (TODO)**
 
