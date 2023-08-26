@@ -28,7 +28,7 @@ In Part 1, I explore the given fearues within Pybaseball
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/2afc1af9-9a7b-4b4a-9c0a-f19c2e123a34" alt="Event Scatter" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/0d488337-2c5a-4ac6-a9eb-e6c9295b334f" />
       </a>
     </td>
     <td>
