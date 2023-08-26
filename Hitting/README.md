@@ -18,8 +18,36 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 5. [Part 5, Pipeline Synthesis and Results Showcase](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-5.ipynb)
 
 
-![part1_img_1](https://github.com/dec1costello/Baseball/assets/79241861/be3449e8-1dd0-4439-832c-84330c8e1750)
+## **Part 1 Description**
 
+In Part 1, I explore the given fearues within Pybaseball
+
+<table>
+<thead>
+  <tr>
+    <th>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">Possible Feature Correlations</a>
+    </th>
+    <th>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">XWoba</a>
+    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/be3449e8-1dd0-4439-832c-84330c8e1750" alt="Feats Heatmap" />
+      </a>
+    </td>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/be3449e8-1dd0-4439-832c-84330c8e1750" alt="XWoba Graph" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
 
 ## **Task List (TODO)**
 
