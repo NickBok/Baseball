@@ -40,6 +40,28 @@ In Part 1, I explore the given fearues within Pybaseball
 </tbody>
 </table>
 
+## **Part 2 Description**
+
+In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/2afc1af9-9a7b-4b4a-9c0a-f19c2e123a34" alt="Event Scatter" />
+      </a>
+    </td>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/beb0e425-99f4-4cfb-8eb1-178178025951" alt="WOBA Heatmap" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
 ## **Task List (TODO)**
 
 - Impute missing values
