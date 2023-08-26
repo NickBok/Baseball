@@ -17,6 +17,10 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 4. [Part 4, XGBoost Parameter Optimization and Insights](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-4.ipynb)
 5. [Part 5, Pipeline Synthesis and Results Showcase](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-5.ipynb)
 
+
+![part1_img_1](https://github.com/dec1costello/Baseball/assets/79241861/be3449e8-1dd0-4439-832c-84330c8e1750)
+
+
 ## **Task List (TODO)**
 
 - Impute missing values
