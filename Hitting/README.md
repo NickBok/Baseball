@@ -42,7 +42,7 @@ In Part 1, I explore the given fearues within Pybaseball
     </td>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/be3449e8-1dd0-4439-832c-84330c8e1750" alt="XWoba Graph" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/c20052f4-6361-4033-b35d-0429d0b5f675" alt="XWoba Graph" />
       </a>
     </td>
 </tr>
