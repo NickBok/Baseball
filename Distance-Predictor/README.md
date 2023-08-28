@@ -66,7 +66,7 @@ In Part 2, I start to feature engineering. Feature engineering involves crafting
 
 ## **Part 3 Description**
 
-In Part 3, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball
+In Part 3, I use grid search to sleect the best ML model, as it entails choosing the most suitable algorithm for a given task. It ensures optimal use of resources by aligning the algorithm's assumptions with the data characteristics. This leads to better predictive accuracy, efficient training, and successful problem-solving.
 
 
 
