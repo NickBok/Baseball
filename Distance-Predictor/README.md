@@ -91,15 +91,20 @@ In Parts 4 & 5, I use model optimization to refine my results, involving the ref
 
 <table>
 
+<tbody>
   <tr>
-    <td>residus</td>
-    <td>a vs p</td>
-  </tr>
-    <tr>
-    <th 
-colspan="2"
->Feature importance h bar</th>
-  </tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/a2c62f05-3ecc-4c4e-891f-9a772f2cdfd7" />
+      </a>
+    </td>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/68cceac6-174b-4f7e-80e7-d5669d55f849" alt="WOBA Heatmap" />
+      </a>
+    </td>
+</tr>
+</tbody>
 </table>
 
 ## **Task List (TODO)**
