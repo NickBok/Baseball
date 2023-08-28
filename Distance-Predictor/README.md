@@ -64,7 +64,7 @@ In Part 2, I start to feature engineering. Feature engineering involves crafting
 </tbody>
 </table>
 
-## **Part 3, [Model Selection: XGBoost](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-3.ipynb)**
+## **Part 3, [Model Selection](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-3.ipynb)**
 
 In Part 3, I use grid search to sleect the best ML model, as it entails choosing the most suitable algorithm for a given task. It ensures optimal use of resources by aligning the algorithm's assumptions with the data characteristics. This leads to better predictive accuracy, efficient training, and successful problem-solving.
 
