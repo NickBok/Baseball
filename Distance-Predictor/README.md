@@ -42,7 +42,7 @@ In Part 1, I explore the data to help understand, clean, and refine the dataset.
 
 ## **Part 2 Description**
 
-In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball In Part 2, I create features based off the given data such as Dynamic Hard Hit rate and obsere trends fearues within Pybaseball
+In Part 2, I start to feature engineering. Feature engineering involves crafting and selecting relevant input variables. This process improves model performance by capturing essential patterns in the data. It enables better predictions, reduces overfitting, and enhances the model's ability to generalize to new data.
 
 
 
