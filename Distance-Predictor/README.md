@@ -27,12 +27,12 @@ In Part 1, I explore the data to help understand, clean, and refine the dataset.
 <tbody>
   <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/a2c62f05-3ecc-4c4e-891f-9a772f2cdfd7" />
       </a>
     </td>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/68cceac6-174b-4f7e-80e7-d5669d55f849" alt="WOBA Heatmap" />
       </a>
     </td>
@@ -51,12 +51,12 @@ In Part 2, I start to feature engineering. Feature engineering involves crafting
 <tbody>
   <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-2.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" alt="Event Scatter" />
       </a>
     </td>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-2.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/4e07ccec-4cec-42c5-92c1-1d602053b812" alt="WOBA Heatmap" />
       </a>
     </td>
@@ -75,7 +75,7 @@ In Part 3, I use grid search to sleect the best ML model, as it entails choosing
 <tbody>
   <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-2.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-3.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/11a4414a-7b01-4f05-9625-90a3de21c752" alt="Event Scatter" />
       </a>
     </td>
@@ -94,12 +94,12 @@ In Parts 4 & 5, I use model optimization to refine my results, involving the ref
 <tbody>
   <tr>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/a2c62f05-3ecc-4c4e-891f-9a772f2cdfd7" />
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/31c8843d-65b3-4e94-adfc-406a36732e85" />
       </a>
     </td>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Hitting/Distance-Predictor-Part-1.ipynb">
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/68cceac6-174b-4f7e-80e7-d5669d55f849" alt="WOBA Heatmap" />
       </a>
     </td>
