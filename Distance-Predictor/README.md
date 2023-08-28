@@ -20,7 +20,7 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 
 ## **Part 1 Description**
 
-In Part 1, I explore the given fearues within Pybaseball
+In Part 1, I explore the data to help understand, clean, and refine the dataset. It guides future feature selection, model choice, and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establishe a strong foundation for the rest of my project.
 
 <table>
 
