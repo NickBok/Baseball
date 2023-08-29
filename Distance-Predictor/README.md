@@ -95,7 +95,7 @@ In Parts 4 & 5, I use model optimization to refine my results, involving the ref
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/31c8843d-65b3-4e94-adfc-406a36732e85" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/33f5e1dc-96ed-4a2c-b8ae-fda7290b9b3f" />
       </a>
     </td>
     <td>
