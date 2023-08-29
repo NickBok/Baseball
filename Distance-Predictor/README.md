@@ -100,7 +100,7 @@ In Parts 4 & 5, I use model optimization to refine my results, involving the ref
     </td>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/31c8843d-65b3-4e94-adfc-406a36732e85" alt="WOBA Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/c9379e93-8a35-4644-a747-818d7fb07f1d" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
