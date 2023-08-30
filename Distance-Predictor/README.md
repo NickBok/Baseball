@@ -18,9 +18,9 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 5. [Part 5, Pipeline Synthesis and Results Showcase](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb)
 
 
-## **Part 1, [Data Exploration](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb)**
+## **Part 1 & 2, [Data Exploration](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb) and [Feature Engineering](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb)**
 
-In Part 1, I explore the data to help understand, clean, and refine the dataset. It guides future feature selection, model choice, and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establishe a strong foundation for the rest of my project.
+In Parts 1 & 2, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establishe a strong foundation for the rest of my project.
 
 <table>
 
@@ -32,32 +32,8 @@ In Part 1, I explore the data to help understand, clean, and refine the dataset.
       </a>
     </td>
     <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/68cceac6-174b-4f7e-80e7-d5669d55f849" alt="WOBA Heatmap" />
-      </a>
-    </td>
-</tr>
-</tbody>
-</table>
-
-## **Part 2, [Feature Engineering](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb)**
-
-In Part 2, I start to feature engineering. Feature engineering involves crafting and selecting relevant input variables. This process improves model performance by capturing essential patterns in the data. It enables better predictions, reduces overfitting, and enhances the model's ability to generalize to new data.
-
-
-
-<table>
-
-<tbody>
-  <tr>
-    <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" alt="Event Scatter" />
-      </a>
-    </td>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/4e07ccec-4cec-42c5-92c1-1d602053b812" alt="WOBA Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
