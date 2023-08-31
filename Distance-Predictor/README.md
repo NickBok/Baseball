@@ -87,6 +87,7 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 
 - Impute missing values
 - pitch location vs la for top bottom, and spray vs side side pitch locations
+- Overfitting??
 
 ## **Future Prospects**
 
