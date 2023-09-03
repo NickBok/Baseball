@@ -6,5 +6,5 @@
 - [Code](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)
 
 
-![<img src="https://github.com/dec1costello/Baseball/assets/79241861/52ab846f-cc9f-4d2a-91f6-2df517ac5592" >](https://www.youtube.com/watch?v=a8rhgyvCnVM)
+[<img src="https://github.com/dec1costello/Baseball/assets/79241861/52ab846f-cc9f-4d2a-91f6-2df517ac5592" >](https://www.youtube.com/watch?v=a8rhgyvCnVM)
 
