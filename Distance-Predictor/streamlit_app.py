@@ -1,13 +1,9 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import numpy as np
+#import numpy as np
 
 st.title('Predicted Distance is...')
-
-#la = st.slider("Launch Angle",0,50, value=25)
-#ev = st.slider("Exit Velocity",0,120, value=60)
-#pull_percent =  st.slider("Pull %",0.0,1.0, value = 0.5)
 
 df = pd.read_csv('Distance-Predictor/sample_input.csv')
 
