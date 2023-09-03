@@ -1,5 +1,7 @@
 # **Baseball Projects**
 
+*Author: Declan Costello*
+
 ## **Distance Predictor**
 
 - [Live Light Weight Model](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)
