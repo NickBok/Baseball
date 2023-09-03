@@ -10,7 +10,7 @@ df['launch_angle'].iloc[0] = st.slider("Launch Angle",0,60, value=30)
 df['launch_speed'].iloc[0] = st.slider("Exit Velocity",60,120, value=90)
 df['pull_percent'].iloc[0] = st.slider("Pull %",0.0,1.0, value = 0.5)
 
-pickled_model = pickle.load(open('Distance-Predictor/light_weight_model.pkl', 'rb'))
+pickled_model = pickle.load(open('Distance-Predictor/lw_model.pkl', 'rb'))
 pred = pickled_model.predict(df)
 
 st.title(pred[0])
