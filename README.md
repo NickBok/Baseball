@@ -1,6 +1,6 @@
-## **Made some Baseball Projects....**
+# **Made some Baseball Projects....**
 
-# **Distance Predictor**
+## **Distance Predictor**
 
 - [Live Model](https://www.youtube.com/watch?v=a8rhgyvCnVM)
 - Code
