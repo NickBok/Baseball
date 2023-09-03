@@ -1,7 +1,7 @@
 # **Distance Predictor**
 *Author: Declan Costello*
 
-## **Try it Out [Here](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)!**
+## **[Try Live Light Weight Model Here!](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)**
 
 ## **Project Overview**
 
