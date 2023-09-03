@@ -1,9 +1,9 @@
-# **Made some Baseball Projects....**
+# **Some Baseball Projects....**
 
 ## **Distance Predictor**
 
-- [Live Model](https://www.youtube.com/watch?v=a8rhgyvCnVM)
-- Code
+- [Live Model](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)
+- [Code](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)
 
 <table>
 <tbody>
