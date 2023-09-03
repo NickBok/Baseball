@@ -7,7 +7,7 @@
 - [Live Light Weight Model](https://light-weight-distance-predictor.streamlit.app/)
 - [Code](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)
 
-## **Drag Coefficient **
+## **Drag Coefficient**
 
 - [Code](https://github.com/dec1costello/Baseball/tree/main/Physics)
 
