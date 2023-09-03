@@ -3,7 +3,7 @@
 
 ## **Light Weight Model**
 
-Here, I use [Streamlit](https://streamlit.io/) to demo a light weight version of the Distance Predictor. Feel free to try it out [here](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)!
+Here, I use [Streamlit](https://streamlit.io/) to demo a light weight version of the Distance Predictor. Feel free to try it out [here](https://light-weight-distance-predictor.streamlit.app/)!
 
 <table>
 <tbody>
