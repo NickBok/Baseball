@@ -10,12 +10,12 @@ Inspired by ["Simplified Models for the Drag Coefficient of a Pitched Baseball" 
   <tr>
     <td>
       <a href="https://github.com/dec1costello/Baseball/blob/main/Physics/Coefficient_of_a_Pitched_Baseball.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/a2c62f05-3ecc-4c4e-891f-9a772f2cdfd7" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/e7d22b62-a499-4bb9-ace4-9160067273bb" />
       </a>
     </td>
     <td>
       <a href="https://github.com/dec1costello/Baseball/blob/main/Physics/Coefficient_of_a_Pitched_Baseball.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" alt="WOBA Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/0ff2de04-7370-4b1e-bde4-a3c8549873b1" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
