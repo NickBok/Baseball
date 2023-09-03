@@ -14,3 +14,6 @@ pickled_model = pickle.load(open('Distance-Predictor/lw_model.pkl', 'rb'))
 pred = pickled_model.predict(df)
 
 st.title(pred[0])
+
+#once extra folder throw this link in to show under predicting
+#https://twitter.com/homerunreport?s=20
