@@ -3,7 +3,7 @@
 
 ## **Project Overview**
 
-Inspired by ,This project observes how tempurature, humidity, and air pressure affect the drag coef. With an interest in hitting mechanics and atmospheric influences, the primary aspiration is to contribute meaningful insights to the baseball community.
+Inspired by ["Simplified Models for the Drag Coefficient of a Pitched Baseball" by David Kagan & Alan M. Nathan](http://baseball.physics.illinois.edu/DragTPTMay2014.pdf), this project observes how tempurature, humidity, and air pressure affect the drag coef. With an interest in hitting mechanics and atmospheric influences, the primary aspiration is to contribute meaningful insights to the baseball community.
 
 <table>
 <tbody>
