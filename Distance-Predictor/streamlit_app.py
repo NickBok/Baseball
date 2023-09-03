@@ -16,7 +16,7 @@ df['launch_angle'].iloc[0] = la
 df['launch_speed'].iloc[0] = ev
 df['pull_percent'].iloc[0] = pull_percent
 
-pickled_model = pickle.load(open('light_weight_model.pkl', 'rb'))
+pickled_model = pickle.load(open('Distance-Predictor/light_weight_model.pkl', 'rb'))
 pred = pickled_model.predict(df)
 
 st.title(pred[0])
