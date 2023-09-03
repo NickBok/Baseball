@@ -2,7 +2,7 @@
 
 ## **Distance Predictor**
 
-- [Live Model](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)
+- [Live Light Weight Model](https://baseball-uvsnfjbppkpkxsb6kuhfsb.streamlit.app/)
 - [Code](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)
 
 <table>
