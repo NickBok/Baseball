@@ -40,3 +40,7 @@ Welcome to **Park Factors**. Inspired by [Pitcher List Park Factor Articles](htt
 </tr>
 </tbody>
 </table>
+
+## **TODO**
+
+- [Radar Charts](https://python-graph-gallery.com/391-radar-chart-with-several-individuals/)
