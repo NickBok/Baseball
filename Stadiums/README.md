@@ -11,7 +11,7 @@ Welcome to **Park Factors**. Inspired by [Pitcher List Park Factor Articles](esp
 <tbody>
   <tr>
     <td>  
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/a35d0d76-ed05-4ba8-aced-c0025f419614" alt="lol" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/dd321db6-c101-4e05-9e83-d323ce15c4a9" alt="lol" />
     </td>
 </tr>
 </tbody>
