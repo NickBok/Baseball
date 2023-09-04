@@ -1,7 +1,7 @@
 # **Park Factors**
 *Author: Declan Costello*
 
-## **Park Factorsl**
+## **Park Factors**
 
 Welcome to **Park Factors**. Inspired by [Pitcher List Park Factor Articles](https://www.pitcherlist.com/going-deep-barrels-and-ballpark-factors/), this project harnesses data from  [Pybaseball Data](https://github.com/jldbc/pybaseball), specifically from the 2022 MLB Season, to observe the HRs trends within each stadium. To get a better feel for the visual details, I encourage you to check out the interactive visuals created using [Bokeh](http://bokeh.org/) for [the notebook on NBViewer](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Stadiums/Park-Factors.ipynb). 
 
