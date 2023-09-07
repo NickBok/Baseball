@@ -42,7 +42,7 @@ with tab_ppredictor:
 
             final = (string + str(res))
             #st.markdown('''#### The Predicted Distance is...''' + str(res), unsafe_allow_html=True)
-            st.markdown(final)
+            st.title(final)
 
 with tab_faq:
             st.markdown(" ### Frequently Asked Questions 🔎 ")
