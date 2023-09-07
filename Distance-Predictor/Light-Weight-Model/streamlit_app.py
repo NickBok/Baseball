@@ -28,7 +28,7 @@ tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "FAQ"])
 
 with tab_ppredictor:
 
-            st.markdown('''#### The Predicted Distance is...''' + str(pred[0]), unsafe_allow_html=True)
+            st.markdown('''#### The Predicted Distance is...''', unsafe_allow_html=True)
 
             df = pd.read_csv('Distance-Predictor/Light-Weight-Model/sample_input.csv')
             
@@ -39,7 +39,7 @@ with tab_ppredictor:
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
             
-            st.title(pred[0])
+            st.title(str(pred[0]))
 
 with tab_faq:
             st.markdown(" ### Frequently Asked Questions 🔎 ")
