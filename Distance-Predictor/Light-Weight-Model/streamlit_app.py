@@ -7,7 +7,7 @@ st.sidebar.markdown("This prediction model forecast the distance of batted ball 
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
 
 
-st.title("Hoops Hero")
+st.title("Distance Predictor")
 st.markdown('''##### <span style="color:gray">Predict the distance of a batted ball from EV, LA, & Pull%</span>
             ''', unsafe_allow_html=True)
 
