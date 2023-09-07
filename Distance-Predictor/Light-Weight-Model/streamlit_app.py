@@ -15,8 +15,8 @@ tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "FAQ"])
 
 with tab_ppredictor:
 
-            st.title('Predicted Distance is...')
-            
+            st.markdown('''#### Predicted Distance is...''', unsafe_allow_html=True)
+
             df = pd.read_csv('Distance-Predictor/Light-Weight-Model/sample_input.csv')
             
             df['launch_angle'].iloc[0] = st.slider("Launch Angle",0,60, value=30)
@@ -26,7 +26,8 @@ with tab_ppredictor:
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
             
-            st.title(pred[0])
+            st.markdown(pred[0], unsafe_allow_html=True)
+
 
 with tab_faq:
             st.title('test')
