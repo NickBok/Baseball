@@ -41,7 +41,7 @@ with tab_faq:
             
             expand_faq1 = st.expander(":baseball: Where can I see the code for the model?")
             with expand_faq1:
-                        st.write('''It's all on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor). ''', unsafe_allow_html=True)
+                        st.write('''It's all on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)!''', unsafe_allow_html=True)
 
             st.success('''**A Brief Note on Methods:**  
 
