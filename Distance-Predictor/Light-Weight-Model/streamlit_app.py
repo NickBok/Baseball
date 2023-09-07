@@ -55,18 +55,8 @@ with tab_faq:
                 st.write('''I tried various regression, classification, and hybrid approaches and found that using  a Random Forest Classifier as my predictive model gave accurate and meaningful results. A Random Forest is an ensemble model consisting of thousands of Decision Trees, with each tree constructed from a random bootstrapped sample of players in the training set; each node on each tree is split using a random sample of the feature (input) variables. The values of hyperparameters such as maximum tree depth and  number of features considered at each node were arrived at via grid search optimization.
         
         For my classification target variable, I grouped the free agent next-year salaries into seven buckets: \$0-5M, \$5-10M, \$10-15M, \$15-20M, \$20-25M, \$25-30M, and \$30M+, and chose accuracy as my optimization metric.  Importantly, I made sure to balance these seven classes before model training, to prevent model bias toward the dominant class (after all, over half of all players earn \$0-5M, so a reasonably accurate but utterly useless model could just naively guess this class every time!).''', unsafe_allow_html=True)
+                <img src="https://github.com/dec1costello/Baseball/assets/79241861/11a4414a-7b01-4f05-9625-90a3de21c752" />
 
-                <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-3.ipynb">
-                        <img src="https://github.com/dec1costello/Baseball/assets/79241861/11a4414a-7b01-4f05-9625-90a3de21c752" alt="Event Scatter" />
-                      </a>
-                    </td>
-                </tr>
-                </tbody>
-                </table>
             
             ##########
             expand_faq3 = st.expander(":baseball: How was the predictive model trained?", expanded=False)
