@@ -26,7 +26,7 @@ with tab_ppredictor:
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
             
-            st.title(pred[0], unsafe_allow_html=True)
+            st.title(pred[0])
 
 
 with tab_faq:
