@@ -12,6 +12,8 @@ st.markdown('''##### <span style="color:gray">Predict the distance of a batted b
             ''', unsafe_allow_html=True)
 
 tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "FAQ"])
+#tab for model data like feature importance
+#tab for ev percentiles by la, and a df a side by side for ev percentiles vs pull
 
 with tab_ppredictor:
 
@@ -34,7 +36,9 @@ with tab_ppredictor:
 The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
 
 
-with tab_faq:            
+with tab_faq:
+            st.markdown(" ### Frequently Asked Questions 🔎 ")
+            
             expand_faq1 = st.expander(":baseball: Where can I see the code for the model?")
             with expand_faq1:
                         st.write('''It's all on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor). ''', unsafe_allow_html=True)
