@@ -42,9 +42,9 @@ with tab_ppredictor:
             st.title(pred[0])
 
 
-            st.success('''**A Brief Note on Methods:**  
+#             st.success('''**A Brief Note on Methods:**  
 
-The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
+# The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
 
 
 with tab_faq:
@@ -54,7 +54,8 @@ with tab_faq:
             with expand_faq1:
                         st.write('''It's all on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)!''', unsafe_allow_html=True)
 
-            st.success('''**A Brief Note on Methods:**  
+
+st.success('''**A Brief Note on Methods:**  
 
 The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
 
