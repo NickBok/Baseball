@@ -12,8 +12,7 @@ st.sidebar.markdown(_(
     """
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Pybaseball](https://github.com/jldbc/pybaseball)
-
-"""
+"""))
 
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
 
