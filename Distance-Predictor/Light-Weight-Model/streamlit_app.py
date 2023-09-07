@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+st.set_page_config(page_title="The Distance Predictor", page_icon=":baseball:", initial_sidebar_state="expanded")
+
 st.sidebar.markdown(" ## About The Distance Predictor")
 st.sidebar.markdown("This prediction model forecast the distance of batted ball distances. With an interest in hitting mechanics and atmospheric influences, the primary aspiration is to contribute meaningful insights to the baseball community."  )              
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
