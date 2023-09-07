@@ -41,18 +41,36 @@ with tab_ppredictor:
             
             st.title(pred[0])
 
-
-#             st.success('''**A Brief Note on Methods:**  
-
-# The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
-
-
 with tab_faq:
             st.markdown(" ### Frequently Asked Questions 🔎 ")
             
             expand_faq1 = st.expander(":baseball: Where can I see the code for the model?")
             with expand_faq1:
                         st.write('''It's all on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)!''', unsafe_allow_html=True)
+
+
+            expand_faq2 = st.expander("🏀 What machine learning model did you use?")
+            with expand_faq2:    
+                
+                st.write('''I tried various regression, classification, and hybrid approaches and found that using  a Random Forest Classifier as my predictive model gave accurate and meaningful results. A Random Forest is an ensemble model consisting of thousands of Decision Trees, with each tree constructed from a random bootstrapped sample of players in the training set; each node on each tree is split using a random sample of the feature (input) variables. The values of hyperparameters such as maximum tree depth and  number of features considered at each node were arrived at via grid search optimization.
+        
+        For my classification target variable, I grouped the free agent next-year salaries into seven buckets: \$0-5M, \$5-10M, \$10-15M, \$15-20M, \$20-25M, \$25-30M, and \$30M+, and chose accuracy as my optimization metric.  Importantly, I made sure to balance these seven classes before model training, to prevent model bias toward the dominant class (after all, over half of all players earn \$0-5M, so a reasonably accurate but utterly useless model could just naively guess this class every time!).''', unsafe_allow_html=True)
+            
+            ##########
+            expand_faq3 = st.expander("🏀   How was the predictive model trained?", expanded=False)
+            with expand_faq3:
+                
+                st.write('''To train my model, I collected data for all free agents from 2015 to 2020 (the NBA salary cap had a massive spike in 2015 due to a sudden influx of money from a new TV deal, so it made sense to use that as the cutoff year). For each player, I  used his stats in the final year of his old contract as the feature (input) variables and his new salary the following year as the target (output) variable. I also normalized each salary by that year's salary cap , since teams evaluate salaries as a percentage of the salary cap, rather than by the specific dollar amount. 
+        
+        This gave me 744 total entries (or about 150 free agents per year).  First, I took all the entries from 2020 and siloed them away from my own prying eyes, to use later as a holdout set for testing final model performance.  I then used stratified sampling to split the remaining entries from 2015 to 2019 into a training set (for learning model parameters) and a validation set (for comparing different models and tuning hyperparameters).   
+        
+        After settling on final model hyperparameter values using the validation set, I trained a model on the combined training + validation sets and evaluated its performance using the 2020 holdout set. Finally, I recombined all 744 entries (training + validation + holdout) and used this full dataset to train a final model with the same hyperparameters as above. It is this final model that is used to generate the 2021 market value predictions seen in the web app.''', unsafe_allow_html=True)
+            
+
+
+
+
+
 
 
 st.success('''**A Brief Note on Methods:**  
