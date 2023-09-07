@@ -3,9 +3,13 @@ import pandas as pd
 import pickle
 
 st.sidebar.markdown(" ## About The Distance Predictor")
-st.sidebar.markdown("This prediction model forecast the trajectory of batted ball distances. With an interest in hitting mechanics and atmospheric influences, the primary aspiration is to contribute meaningful insights to the baseball community."  )              
+st.sidebar.markdown("This prediction model forecast the distance of batted ball distances. With an interest in hitting mechanics and atmospheric influences, the primary aspiration is to contribute meaningful insights to the baseball community."  )              
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
 
+
+st.title("Hoops Hero")
+st.markdown('''##### <span style="color:gray">Predict the distance of a batted ball from EV, LA, & Pull%</span>
+            ''', unsafe_allow_html=True)
 
 st.title('Predicted Distance is...')
 
