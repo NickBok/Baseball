@@ -19,8 +19,6 @@ st.sidebar.info("Read more about how the model works and see the code on my [Git
 
 
 st.title("The Distance Predictor")
-st.markdown('''##### <span style="color:gray">Predict the distance of a batted ball from EV, LA, & Pull%</span>
-            ''', unsafe_allow_html=True)
 
 tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "FAQ"])
 #tab for model data like feature importance
@@ -38,9 +36,10 @@ with tab_ppredictor:
             pred = pickled_model.predict(df)
             
             res = pred[0]
-            string = 'The Predicted Distance is... '
+            string = 'The Predicted Distance is '
+            end = '!'
 
-            final = (string + str(res))
+            final = (string + str(res) + end)
             #st.markdown('''#### The Predicted Distance is...''' + str(res), unsafe_allow_html=True)
             st.title(final)
 
