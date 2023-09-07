@@ -11,15 +11,22 @@ st.title("Distance Predictor")
 st.markdown('''##### <span style="color:gray">Predict the distance of a batted ball from EV, LA, & Pull%</span>
             ''', unsafe_allow_html=True)
 
-st.title('Predicted Distance is...')
+tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "FAQ"])
 
-df = pd.read_csv('Distance-Predictor/Light-Weight-Model/sample_input.csv')
+with tab_ppredictor:
 
-df['launch_angle'].iloc[0] = st.slider("Launch Angle",0,60, value=30)
-df['launch_speed'].iloc[0] = st.slider("Exit Velocity",60,120, value=90)
-df['pull_percent'].iloc[0] = st.slider("Pull %",0.0,1.0, value = 0.5)
+            st.title('Predicted Distance is...')
+            
+            df = pd.read_csv('Distance-Predictor/Light-Weight-Model/sample_input.csv')
+            
+            df['launch_angle'].iloc[0] = st.slider("Launch Angle",0,60, value=30)
+            df['launch_speed'].iloc[0] = st.slider("Exit Velocity",60,120, value=90)
+            df['pull_percent'].iloc[0] = st.slider("Pull %",0.0,1.0, value = 0.5)
+            
+            pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
+            pred = pickled_model.predict(df)
+            
+            st.title(pred[0])
 
-pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
-pred = pickled_model.predict(df)
-
-st.title(pred[0])
+with tab_faq:
+            st.title('test')
