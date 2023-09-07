@@ -4,20 +4,16 @@ import pickle
 
 st.set_page_config(page_title="The Distance Predictor", page_icon=":baseball:", initial_sidebar_state="expanded")
 
-# st.sidebar.header(_("About"))
-# st.sidebar.markdown("This prediction model forecasts the distance of batted ball. The primary aspiration is to contribute meaningful insights to the baseball community."  )  
+st.sidebar.markdown(" ## About")
+st.sidebar.markdown("This prediction model forecasts the distance of batted ball. The primary aspiration is to contribute meaningful insights to the baseball community."  )  
 
-# st.sidebar.header(_("Resources"))
-# st.sidebar.markdown(_(
-#     """
-# - [Streamlit Documentation](https://docs.streamlit.io/)
-# - [Pybaseball](https://github.com/jldbc/pybaseball)
-# """))
 
-st.sidebar.header(_("About"))
-st.sidebar.markdown(_(
-    "[Streamlit](https://streamlit.io) is a Python library that allows the creation of interactive, data-driven web applications in Python."
-))
+st.sidebar.markdown(" ## Resources")
+st.sidebar.markdown(
+    """
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Pybaseball](https://github.com/jldbc/pybaseball)
+""")
 
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
 
