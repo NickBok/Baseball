@@ -18,7 +18,7 @@ st.sidebar.markdown(
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
 
 
-st.title(":bomb: The Distance Predictor :bomb:")
+st.title("The Distance Predictor")
 
 tab_ppredictor, tab_explore, tab_faq = st.tabs(["The Distance Predictor", "Explore", "FAQ"])
 #tab for model data like feature importance
@@ -34,10 +34,9 @@ with tab_ppredictor:
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
 
-            start = ':bomb: '
             res = pred[0]
             end = ' Foot :bomb:'
-            final = (start + str(res) + end)
+            final = (str(res) + end)
     
             st.title(final)
 
