@@ -62,13 +62,7 @@ with tab_faq:
             expand_faq3 = st.expander(":baseball: How was the predictive model trained?", expanded=False)
             with expand_faq3:
                 
-                st.write('''To train my model, I collected data for all free agents from 2015 to 2020 (the NBA salary cap had a massive spike in 2015 due to a sudden influx of money from a new TV deal, so it made sense to use that as the cutoff year). For each player, I  used his stats in the final year of his old contract as the feature (input) variables and his new salary the following year as the target (output) variable. I also normalized each salary by that year's salary cap , since teams evaluate salaries as a percentage of the salary cap, rather than by the specific dollar amount. 
-        
-        This gave me 744 total entries (or about 150 free agents per year).  First, I took all the entries from 2020 and siloed them away from my own prying eyes, to use later as a holdout set for testing final model performance.  I then used stratified sampling to split the remaining entries from 2015 to 2019 into a training set (for learning model parameters) and a validation set (for comparing different models and tuning hyperparameters).   
-        
-        After settling on final model hyperparameter values using the validation set, I trained a model on the combined training + validation sets and evaluated its performance using the 2020 holdout set. Finally, I recombined all 744 entries (training + validation + holdout) and used this full dataset to train a final model with the same hyperparameters as above. It is this final model that is used to generate the 2021 market value predictions seen in the web app.''', unsafe_allow_html=True)
-            
-
+                st.write('''To train my model, I collected data for all free agents from 2015 to 2020 (the NBA salary cap had a massive spike in 2015 due to a sudden influx of money from a new TV deal, so it made sense to use that as the cutoff year). For each player, I  used his stats in the final year of his old contract as the feature (input) variables and his new salary the following year as the target (output) variable. I also normalized each salary by that year's salary cap , since teams evaluate salaries as a percentage of the salary cap, rather than by the specific dollar amount. ''')
 
 
 
