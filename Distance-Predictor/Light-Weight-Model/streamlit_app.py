@@ -62,8 +62,8 @@ with tab_faq:
             expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
             with expand_faq4:
                 
-                st.write('''Adding a batted ball spin rate feature woud greatly improve my model. As [Rapsodo points out](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), miss hits create more spin, while flush hit balls have low spin rates. ''')
-                st.image('https://github.com/dec1costello/Baseball/assets/79241861/8dfe2da6-0d54-4ad8-b6e6-236605e93ef7')
+                st.write('''Adding a batted ball spin rate feature woud greatly improve my model. As [Rapsodo points out](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), Total spin is an effective way to show hitters how well they are squaring up the ball. Effectively keeping spin rate below 2500 RPMs of backspin guarantees the best chance at success. Here is an example of how spin rate and exit speed interact for a sample player:''')
+                st.image('https://cdn.shopify.com/s/files/1/0597/7853/1477/files/image_1_b49cdeac-239a-4295-b355-5dcd46c0c7ab_600x600.png?v=1657207657')
 
 
             st.success('''**A Brief Note on Methods:**  
