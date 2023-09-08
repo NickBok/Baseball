@@ -5,7 +5,7 @@ import pickle
 st.set_page_config(page_title="The Distance Predictor", page_icon=":baseball:", initial_sidebar_state="expanded")
 
 st.sidebar.markdown(" ## About")
-st.sidebar.markdown("This prediction model forecasts the distance of a batted MLB ball. The primary aspiration is to contribute meaningful insights to the baseball community."  )  
+st.sidebar.markdown("This prediction model forecasts the distance of a batted baseball. The primary aspiration is to contribute meaningful insights to the baseball community."  )  
 
 
 st.sidebar.markdown(" ## Resources")
@@ -22,8 +22,6 @@ st.sidebar.info("Read more about how the model works and see the code on my [Git
 st.title("The Distance Predictor")
 
 tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "FAQ"])
-#tab for model data like feature importance
-#tab for ev percentiles by la, and a df a side by side for ev percentiles vs pull
 
 with tab_ppredictor:
 
