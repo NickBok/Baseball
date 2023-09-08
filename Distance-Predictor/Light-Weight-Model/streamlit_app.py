@@ -67,7 +67,7 @@ with tab_faq:
             with expand_faq4:
                 
                 st.write('''To improve my model, batted ball spin data would greatly help. As Rapsodo mentions, miss hits create more spin, while flush hit balls have low spin rates. ''')
-                st.image('https://github.com/dec1costello/Baseball/assets/79241861/11a4414a-7b01-4f05-9625-90a3de21c752')
+                st.image('https://github.com/dec1costello/Baseball/assets/79241861/8dfe2da6-0d54-4ad8-b6e6-236605e93ef7')
 
 
             st.success('''**A Brief Note on Methods:**  
