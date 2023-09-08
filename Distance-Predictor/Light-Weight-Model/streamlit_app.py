@@ -21,7 +21,7 @@ st.sidebar.info("Read more about how the model works and see the code on my [Git
 
 st.title("The Distance Predictor")
 
-tab_ppredictor, tab_explore, tab_faq = st.tabs(["The Distance Predictor", "Explore", "FAQ"])
+tab_ppredictor, tab_faq = st.tabs(["The Distance Predictor", "Explore", "FAQ"])
 #tab for model data like feature importance
 #tab for ev percentiles by la, and a df a side by side for ev percentiles vs pull
 
@@ -41,8 +41,6 @@ with tab_ppredictor:
     
             st.title(final)
 
-with tab_explore:
-            st.markdown(" ### Data Trends")
 
 with tab_faq:
             st.markdown(" ### Frequently Asked Questions 🔎 ")
