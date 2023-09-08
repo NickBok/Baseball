@@ -79,15 +79,3 @@ The machine learning model deployed in this app is an XGBoost Regressor that use
             st.success('''**A Brief Note on Methods:**  
 
 The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
-
-
-
-
-
-
-
-st.success('''**A Brief Note on Methods:**  
-
-The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
-
-
