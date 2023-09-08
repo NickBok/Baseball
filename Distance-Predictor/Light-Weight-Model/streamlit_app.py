@@ -59,7 +59,6 @@ with tab_faq:
                 st.image('https://github.com/dec1costello/Baseball/assets/79241861/11a4414a-7b01-4f05-9625-90a3de21c752')
 
             
-            ##########
             expand_faq3 = st.expander(":baseball: How was the predictive model trained?", expanded=False)
             with expand_faq3:
                 
@@ -69,6 +68,17 @@ with tab_faq:
 
 The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
 
+            expand_faq4 = st.expander(":baseball: How the model imporve?", expanded=False)
+            with expand_faq4:
+                
+                st.write('''To improve my model, batted ball spin data would greatly help. As Rapsodo mentions, miss hits create more spin, while flush hit balls have low spin rates. ''')
+
+                st.image('https://github.com/dec1costello/Baseball/assets/79241861/11a4414a-7b01-4f05-9625-90a3de21c752')
+
+
+            st.success('''**A Brief Note on Methods:**  
+
+The machine learning model deployed in this app is an XGBoost Regressor that uses exit velocity, launch angle, and pull to predict the distance of a batted ball all scraped from [Pybaseball Data](https://github.com/jldbc/pybaseball).''')
 
 
 
