@@ -61,7 +61,7 @@ with tab_faq:
             expand_faq3 = st.expander(":baseball: How was the predictive model trained?", expanded=False)
             with expand_faq3:
                 
-                st.write('''To train my model, I collected data for all free agents from 2015 to 2020 (the NBA salary cap had a massive spike in 2015 due to a sudden influx of money from a new TV deal, so it made sense to use that as the cutoff year). For each player, I  used his stats in the final year of his old contract as the feature (input) variables and his new salary the following year as the target (output) variable. I also normalized each salary by that year's salary cap , since teams evaluate salaries as a percentage of the salary cap, rather than by the specific dollar amount. ''')
+                st.write('''To train my model, I collected data from [Pybaseball](https://github.com/jldbc/pybaseball), specifically from the 2022 MLB Season. For this specific Streamlit Model I only used the EV, LA, & Pull% Feature, but feel free to check out my [full model](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor) where I feature engineer and use more data to get better results''')
 
             expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
             with expand_faq4:
