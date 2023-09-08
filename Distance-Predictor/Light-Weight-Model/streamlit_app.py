@@ -27,6 +27,7 @@ tab_ppredictor, tab_explore, tab_faq = st.tabs(["The Distance Predictor", "Explo
 with tab_ppredictor:
 
             df = pd.read_csv('Distance-Predictor/Light-Weight-Model/sample_input.csv')
+            st.markdown(" ")
             st.markdown(" ### Launch Angle")
             df['launch_angle'].iloc[0] = st.slider(" ",0,60, value=30)
             st.markdown(" ### Exit Velocity")
