@@ -61,7 +61,7 @@ with tab_faq:
             expand_faq3 = st.expander(":baseball: How was the predictive model trained?", expanded=False)
             with expand_faq3:
                 
-                st.write('''To train my model, I collected data from [Pybaseball](https://github.com/jldbc/pybaseball), specifically from the 2022 MLB Season. For this specific Streamlit Model I only used the EV, LA, & Pull% as training features, but feel free to check out my [full model](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor) where I use more existing features and make my own as well 🧪 ''')
+                st.write('''To train my model, I collected data from [Pybaseball](https://github.com/jldbc/pybaseball), specifically from the 2022 MLB Season. For this specific Streamlit Model I only used the EV, LA, & Pull% as training features, but feel free to check out my [full model](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor) where I use more existing features and make my own as well 🧪 👨‍🔬 🧬!''')
 
             expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
             with expand_faq4:
