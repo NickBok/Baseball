@@ -5,7 +5,7 @@ import pickle
 st.set_page_config(page_title="The Distance Predictor", page_icon=":baseball:", initial_sidebar_state="expanded")
 
 st.sidebar.markdown(" ## About")
-st.sidebar.markdown("This prediction model forecasts the distance of batted ball. The primary aspiration is to contribute meaningful insights to the baseball community."  )  
+st.sidebar.markdown("This prediction model forecasts the distance of batted ball in the MLB. The primary aspiration is to contribute meaningful insights to the baseball community."  )  
 
 
 st.sidebar.markdown(" ## Resources")
