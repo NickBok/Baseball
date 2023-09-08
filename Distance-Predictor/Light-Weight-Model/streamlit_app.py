@@ -37,7 +37,7 @@ with tab_ppredictor:
             
             res = pred[0]
             string = 'You hit a '
-            end = ' foot :Bomb:!'
+            end = ' foot :bomb: !'
             final = (string + str(res) + end)
     
             st.title(final)
