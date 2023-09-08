@@ -36,7 +36,6 @@ with tab_ppredictor:
             pred = pickled_model.predict(df)
             
             res = pred[0]
-            res = res[:6]
             string = 'You hit a '
             end = ' foot :Bomb:!'
             final = (string + str(res) + end)
