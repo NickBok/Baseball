@@ -28,16 +28,16 @@ with tab_ppredictor:
 
             df = pd.read_csv('Distance-Predictor/Light-Weight-Model/sample_input.csv')
             
-            df['launch_angle'].iloc[0] = st.slider("Launch Angle",0,60, value=30)
-            df['launch_speed'].iloc[0] = st.slider("Exit Velocity",60,120, value=90)
-            df['pull_percent'].iloc[0] = st.slider("Pull %",0.0,1.0, value = 0.5)
+            df['launch_angle'].iloc[0] = st.slider(" ##Launch Angle",0,60, value=30)
+            df['launch_speed'].iloc[0] = st.slider(" ##Exit Velocity",60,120, value=90)
+            df['pull_percent'].iloc[0] = st.slider(" ##Pull %",0.0,1.0, value = 0.5)
             
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
             
             res = pred[0]
-            string = 'The Predicted Distance is '
-            end = '!'
+            string = 'You hit a '
+            end = ' foot Bomb!'
 
             final = (string + str(res) + end)
             #st.markdown('''#### The Predicted Distance is...''' + str(res), unsafe_allow_html=True)
