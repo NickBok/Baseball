@@ -62,7 +62,7 @@ with tab_faq:
                 
                 st.write('''To train my model, I collected data for all free agents from 2015 to 2020 (the NBA salary cap had a massive spike in 2015 due to a sudden influx of money from a new TV deal, so it made sense to use that as the cutoff year). For each player, I  used his stats in the final year of his old contract as the feature (input) variables and his new salary the following year as the target (output) variable. I also normalized each salary by that year's salary cap , since teams evaluate salaries as a percentage of the salary cap, rather than by the specific dollar amount. ''')
 
-            expand_faq4 = st.expander(":baseball: How the model imporve?", expanded=False)
+            expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
             with expand_faq4:
                 
                 st.write('''To improve my model, batted ball spin data would greatly help. As Rapsodo mentions, miss hits create more spin, while flush hit balls have low spin rates. ''')
