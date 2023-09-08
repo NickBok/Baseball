@@ -34,10 +34,10 @@ with tab_ppredictor:
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
 
-            start = ':bomb:'
+            start = ':bomb: '
             res = pred[0]
             end = ' Foot :bomb:'
-            final = (star + str(res) + end)
+            final = (start + str(res) + end)
     
             st.title(final)
 
