@@ -73,4 +73,4 @@ with tab_faq:
 
 The machine learning model deployed in this app is an XGBoost Regressor that uses Exit Velocity, Launch Angle, and Pull% to predict the distance of a batted ball all scraped from [Pybaseball](https://github.com/jldbc/pybaseball), specifically from the 2022 MLB Season.
 
-This package scraped [Baseball Reference](https://www.baseball-reference.com/), [Baseball Savant](https://baseballsavant.mlb.com/), and [FanGraphs](https://www.fangraphs.com/) so I didn't have to 😃!''')
+[Pybaseball](https://github.com/jldbc/pybaseball) scraped [Baseball Reference](https://www.baseball-reference.com/), [Baseball Savant](https://baseballsavant.mlb.com/), and [FanGraphs](https://www.fangraphs.com/) so I didn't have to 😃!''')
