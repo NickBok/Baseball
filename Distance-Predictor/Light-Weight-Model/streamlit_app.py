@@ -66,7 +66,7 @@ with tab_faq:
             expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
             with expand_faq4:
                 
-                st.write('''To improve my model, batted ball spin data would greatly help. As [Rapsodo mentions](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), miss hits create more spin, while flush hit balls have low spin rates. ''')
+                st.write('''Adding a batted ball spin rate feature woud greatly improve my model. As [Rapsodo points out](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), miss hits create more spin, while flush hit balls have low spin rates. ''')
                 st.image('https://github.com/dec1costello/Baseball/assets/79241861/8dfe2da6-0d54-4ad8-b6e6-236605e93ef7')
 
 
