@@ -35,7 +35,7 @@ with tab_ppredictor:
             pickled_model = pickle.load(open('Distance-Predictor/Light-Weight-Model/lw_model.pkl', 'rb'))
             pred = pickled_model.predict(df)
             
-            res = pred[0]
+            res = pred[0][:6]
             string = 'You hit a '
             end = ' foot Bomb!'
 
