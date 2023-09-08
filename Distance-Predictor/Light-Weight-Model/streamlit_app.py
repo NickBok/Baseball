@@ -38,10 +38,9 @@ with tab_ppredictor:
             res = pred[0]
             res = res[:6]
             string = 'You hit a '
-            end = ' foot Bomb!'
-
+            end = ' foot :Bomb:!'
             final = (string + str(res) + end)
-            #st.markdown('''#### The Predicted Distance is...''' + str(res), unsafe_allow_html=True)
+    
             st.title(final)
 
 with tab_faq:
