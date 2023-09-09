@@ -15,6 +15,13 @@ st.sidebar.markdown(
 - [Pybaseball](https://github.com/jldbc/pybaseball)
 """)
 
+st.sidebar.markdown(" ## Refrences")
+st.sidebar.markdown(
+    """
+- [NASA's Hit Simulator](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/whit/#play-ball)
+- [Dynamic Hard Hit Rate](https://blogs.fangraphs.com/now-lets-tweak-hard-hit-rate-using-spray-angle/)
+""")
+
 st.sidebar.markdown(" ## Info")
 st.sidebar.info("Read more about how the model works and see the code on my [Github](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor).", icon="ℹ️")
 
@@ -62,7 +69,7 @@ with tab_faq:
             expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
             with expand_faq4:
                 
-                st.write('''Adding a batted ball spin rate feature woud greatly improve my model. As [Rapsodo points out](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), total spin is an effective way to show hitters how well they are squaring up the ball. Effectively keeping spin rate below 2500 RPMs of backspin guarantees the best chance at success. Here is an example of how spin rate and exit speed interact for a sample player:''')
+                st.write('''Adding a batted ball spin rate feature would greatly improve my model. As [Rapsodo points out](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), total spin is an effective way to show hitters how well they are squaring up the ball. Effectively keeping spin rate below 2500 RPMs of backspin guarantees the best chance at success. Here is an example of how spin rate and exit speed interact for a sample player:''')
                 st.image('https://cdn.shopify.com/s/files/1/0597/7853/1477/files/image_1_b49cdeac-239a-4295-b355-5dcd46c0c7ab_600x600.png?v=1657207657')
 
 
