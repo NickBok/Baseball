@@ -93,8 +93,5 @@ Invesitage how pitch locations and certain player's la can [effect ev](https://d
 ## **Task List (TODO)**
 
 - Impute missing values
-- Investigate if my model is overfitted
-
-## **Future Prospects**
-
-A potential avenue for expansion lies in the utilization of the model to predict [WAR](https://blogs.fangraphs.com/an-iota-of-xwoba-does-overperformance-improve-confidence/), thereby delving deeper into the predictive dimensions of player performance.
+- Investigate if the model is overfitted
+- Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
