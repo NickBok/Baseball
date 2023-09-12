@@ -85,11 +85,15 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 </tbody>
 </table>
 
+## **Parts 6, Future Features**
+
+Invesitage how pitch locations and certain player's la can [effect ev](https://drive.google.com/file/d/1fC974yEShTAJ6PXWgbamLlriaFUzjf1r/view)
+
+
 ## **Task List (TODO)**
 
 - Impute missing values
-- pitch location vs la for top bottom, and spray vs side side pitch locations
-- Overfitting??
+- Investigate if my model is overfitted
 
 ## **Future Prospects**
 
