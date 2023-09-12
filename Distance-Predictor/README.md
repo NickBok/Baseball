@@ -90,7 +90,7 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 Invesitage how pitch locations and certain player's la can [effect ev](https://drive.google.com/file/d/1fC974yEShTAJ6PXWgbamLlriaFUzjf1r/view)
 
 
-## **Task List (TODO)**
+## **TODO**
 
 - Impute missing values
 - Investigate if the model is overfitted
