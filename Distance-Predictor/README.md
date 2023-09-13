@@ -96,3 +96,4 @@ Invesitage how pitch locations [effect individual player's launch angle & exit v
 - Investigate if the model is overfitted
 - Add temp and humidity features
 - Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
+- Investigate model bias (ex: R batters vs L batters)
