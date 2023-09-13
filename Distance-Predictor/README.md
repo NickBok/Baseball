@@ -94,4 +94,5 @@ Invesitage how pitch locations [effect individual player's launch angle & exit v
 
 - Impute missing values
 - Investigate if the model is overfitted
+- Add temp and humidity features
 - Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
