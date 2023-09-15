@@ -97,8 +97,8 @@ Invesitage how pitch locations [effect individual player's launch angle & exit v
 - Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
 - Investigate model bias (ex: Model better with R batters vs L batters)
 
-## **Questions
+## **Questions**
 
-- I went about choosing a model from best MAE from a grid search, I've been told the model with the best results isn't necessarily the best model to choose, is there a better way to evalute which model to choose
+- I went about choosing a model that had the best MAE from a grid search, I've been told the model with the best results isn't necessarily the best model to choose, is there a better way to evalute which model to choose
 - How do I tell if the model is overfitted?
 - How do I get a confidence interval along with predictions
