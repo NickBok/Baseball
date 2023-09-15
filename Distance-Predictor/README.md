@@ -95,7 +95,7 @@ Invesitage how pitch locations [effect individual player's launch angle & exit v
 - Impute missing values
 - Add temp and humidity features
 - Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
-- Investigate model bias (ex: Model better with R batters vs L batters)
+- Investigate [model bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) (ex: Model better with R batters vs L batters)
 
 ## **Questions**
 
