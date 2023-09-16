@@ -14,12 +14,10 @@
 
 - Inspired by [Pitcher List Park Factor Articles](https://www.pitcherlist.com/going-deep-barrels-and-ballpark-factors/), this project observes the HRs trends within each stadium.
 
-## **[Spray Display](https://github.com/dec1costello/Baseball/tree/main/Spray%20Display)**
-
-- In this project, I display a live spray chart reactive to pitch location, launch angle, and launch speed for the 2022 MLB Season for righties
-
 
 ## **TODO**
+
+- [Spray Display](https://github.com/dec1costello/Baseball/tree/main/Spray%20Display), In this project, I display a live spray chart reactive to pitch location, launch angle, and launch speed for the 2022 MLB Season for righties
 
 - [WAR](https://github.com/dec1costello/Baseball/tree/main/WAR)
 
