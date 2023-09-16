@@ -16,7 +16,7 @@
 
 ## **[Spray Display](https://github.com/dec1costello/Baseball/tree/main/Spray%20Display)**
 
-- In this project, I display a live spray chart reactive pitch location, launch angle, and launch speed for the 2022 MLB Season for righties
+- In this project, I display a live spray chart reactive to pitch location, launch angle, and launch speed for the 2022 MLB Season for righties
 
 
 ## **TODO**
