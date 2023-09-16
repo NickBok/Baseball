@@ -53,10 +53,10 @@ with tab_faq:
             expand_faq0 = st.expander(":baseball: What are the parameters for the model?")
             with expand_faq0:
                         st.write('''Launch Angle - In baseball, launch angle is the vertical angle at which the ball leaves the player's bat after being struck. It's measured in relation to the ground. A high launch angle means the ball will go further and higher into the air, and a low launch angle means the ball will go lower and not as far.''', unsafe_allow_html=True)
-                        st.markdown(4 * "<br />", unsafe_allow_html=True)
+                        st.markdown(1 * "<br />", unsafe_allow_html=True)
                         st.write('''Exit Velocity - The speed, in miles per hour (MPH), at which the ball was launched off the bat after contact.''', unsafe_allow_html=True)
-                        st.markdown(4 * "<br />", unsafe_allow_html=True)
-                        st.write('''Pull % - The speed, in miles per hour (MPH), at which the ball was launched off the bat after contact.''', unsafe_allow_html=True)
+                        st.markdown(1 * "<br />", unsafe_allow_html=True)
+                        st.write('''Pull % - In baseball, a "pull" refers to a batted ball hit primarily to the side of the field where the batter stands, based on their batting stance. For example, a right-handed batter hitting towards left field or a left-handed batter hitting towards right field is considered a "pull." This term is significant because it often indicates a powerful hit, but it can also lead to defensive adjustments by the opposing team.''', unsafe_allow_html=True)
 
             
             expand_faq1 = st.expander(":baseball: Where can I see the code for the model?")
