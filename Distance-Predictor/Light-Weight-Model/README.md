@@ -15,6 +15,6 @@ Here, I use [Streamlit](https://streamlit.io/) to demo a light weight version of
 </tbody>
 </table>
 
-## **Task List (TODO)**
+## **TODO**
 
 - Underpredicting batted ball distance, [having batted ball spin rate would greatly help predictions!](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate)
