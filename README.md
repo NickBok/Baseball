@@ -2,18 +2,17 @@
 
 *Author: Declan Costello*
 
-## **Distance Predictor**
+## **[Distance Predictor](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)**
 
-- [Live Light Weight Model](https://light-weight-distance-predictor.streamlit.app/)
-- [Code](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor)
+- This prediction model forecasts the distance of a batted baseball. The primary aspiration is to contribute meaningful insights to the baseball community.
 
-## **Drag Coefficient**
+## **[Drag Coefficient](https://github.com/dec1costello/Baseball/tree/main/Physics)**
 
-- [Code](https://github.com/dec1costello/Baseball/tree/main/Physics)
+- Inspired by ["Simplified Models for the Drag Coefficient of a Pitched Baseball" by David Kagan & Alan M. Nathan](http://baseball.physics.illinois.edu/DragTPTMay2014.pdf), this project observes how tempurature, humidity, and air pressure affect the drag coef.
 
-## **Park Factors**
+## **[Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)**
 
-- [Code](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
+- Inspired by [Pitcher List Park Factor Articles](https://www.pitcherlist.com/going-deep-barrels-and-ballpark-factors/), this project observes the HRs trends within each stadium.
 
 ## **TODO**
 
