@@ -85,9 +85,6 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 </tbody>
 </table>
 
-## **Parts 6, Future Features**
-
-Invesitage how pitch locations [effect individual player's launch angle & exit velocity](https://drive.google.com/file/d/1fC974yEShTAJ6PXWgbamLlriaFUzjf1r/view)
 
 
 ## **TODO**
