@@ -100,4 +100,5 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 
 - I went about choosing a model that had the best MAE from a grid search, I've been told the model with the best results isn't necessarily the best model to choose, is there a better way to evalute which model to choose
     - incorporate [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html)
+    - try a boosted forest model
 - How do I tell if the model is overfitted?
