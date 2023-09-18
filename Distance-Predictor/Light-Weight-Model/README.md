@@ -18,3 +18,5 @@ Here, I use [Streamlit](https://streamlit.io/) to demo a light weight version of
 ## **TODO**
 
 - Underpredicting batted ball distance, [having batted ball spin rate would greatly help predictions!](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate)
+
+- embed mlb hr twitter maybe in faq, https://discuss.streamlit.io/t/embedding-a-tweet/14954/2
