@@ -105,3 +105,4 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
     - Incorporate [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html)
     - Try a boosted forest model
 - How do I tell if the model is overfitted?
+    - [Bias vs Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20)
