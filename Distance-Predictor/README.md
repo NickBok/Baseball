@@ -90,11 +90,14 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 ## **TODO**
 
 - Impute missing values
+- Do not need to reduce features, well under 100, so bring back more
 - Add temp and humidity features, possibly wind...
+- change elevation / home team to possible cat, if standardize rememeber the mean for new values
 - Re evalute feature importance with [get_score](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.Booster.get_score)
 - Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
 - Redo train_test_split, with [StratifiedShuffleSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html) and train_test_split's [stratify param](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) to get batted balls evenly through stadiums, splits, and pitch types
 - Investigate [Model Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) (ex: Model better with R batters vs L batters, model better at certain stadiums)
+- [Combine](https://towardsdatascience.com/ensemble-learning-using-scikit-learn-85c4531ff86a) all the models with sklearn's [Ensemble methods](https://scikit-learn.org/stable/modules/ensemble.html)!
 
 ## **Questions**
 
