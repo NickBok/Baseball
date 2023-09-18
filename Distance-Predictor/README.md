@@ -90,12 +90,14 @@ In Parts 4 & 5, I used [Grid Search](https://scikit-learn.org/stable/modules/gen
 ## **TODO**
 
 - Impute missing values
-- Add temp and humidity features
+- Add temp and humidity features, possibly wind...
+- Re evalute feature importance with [get_score](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.Booster.get_score)
 - Conduct an [Ablation Study](https://www.quora.com/In-the-context-of-deep-learning-what-is-an-ablation-study)
-- Investigate [model bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) (ex: Model better with R batters vs L batters)
+- Redo train_test_split, with [StratifiedShuffleSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html) and train_test_split's [stratify param](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) to get batted balls evenly through stadiums, splits, and pitch types
+- Investigate [Model Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) (ex: Model better with R batters vs L batters, model better at certain stadiums)
 
 ## **Questions**
 
 - I went about choosing a model that had the best MAE from a grid search, I've been told the model with the best results isn't necessarily the best model to choose, is there a better way to evalute which model to choose
+    - incorporate [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html)
 - How do I tell if the model is overfitted?
-- How do I get a confidence interval along with predictions
