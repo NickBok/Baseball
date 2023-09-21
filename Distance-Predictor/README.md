@@ -92,5 +92,5 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 - Impute missing values
 - Add temp and humidity features, possibly wind...
 - Investigate [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) vs [ Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20)
-- [Combine](https://towardsdatascience.com/ensemble-learning-using-scikit-learn-85c4531ff86a) all the models with sklearn's [Ensemble methods](https://scikit-learn.org/stable/modules/ensemble.html)!
--  Incorporate [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html)
+- [Mermaid ensemble chart](https://towardsdatascience.com/ensemble-learning-using-scikit-learn-85c4531ff86a) 
+- Incorporate [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html)
