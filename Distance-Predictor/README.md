@@ -74,7 +74,7 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
     <td> <img src="https://github.com/dec1costello/Baseball/assets/79241861/c9379e93-8a35-4644-a747-818d7fb07f1d" alt="WOBA Heatmap" /></td>
   </tr>
   <tr> <a>
-    <td colspan="2"><img src="https://github.com/dec1costello/Baseball/assets/79241861/8a94050c-2191-4043-82b0-12defc140d75" alt="WOBA Heatmap" /> </td>
+    <td colspan="2"><img src="https://github.com/dec1costello/Baseball/assets/79241861/3ab8bede-e53f-468a-92a5-fdba6103e310" alt="cubs vs rocks" /> </td>
   </a>
   </tr>
 </table>
