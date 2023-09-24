@@ -79,6 +79,14 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
   </tr>
 </table>
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 ## **TODO**
 
 - Impute missing values
