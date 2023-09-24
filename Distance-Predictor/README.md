@@ -78,33 +78,6 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
   </tr>
 </table>
 
-
-<table>
-
-<tbody>
-  <tr>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/33f5e1dc-96ed-4a2c-b8ae-fda7290b9b3f" />
-      </a>
-    </td>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/c9379e93-8a35-4644-a747-818d7fb07f1d" alt="WOBA Heatmap" />
-      </a>
-    </td>
-    <tr>
-      <td>
-          <img src="https://github.com/dec1costello/Baseball/assets/79241861/7dc17c83-727e-42c4-87dd-8a20c5f1326f" alt="WOBA Heatmap" />        
-      </td>
-    </tr>
-</tr>
-</tbody>
-<tbody>
-            <img src="https://github.com/dec1costello/Baseball/assets/79241861/7dc17c83-727e-42c4-87dd-8a20c5f1326f" alt="WOBA Heatmap" />        
-</tbody>
-</table>
-
 ## **TODO**
 
 - Impute missing values
