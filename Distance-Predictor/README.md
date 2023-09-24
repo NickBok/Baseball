@@ -88,7 +88,22 @@ graph TB
 
       VotingRegressor --> Prediction;
 ```
+https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5
 
+
+<table>
+
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5
+" alt="Event Scatter" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
 
 
 <table>
