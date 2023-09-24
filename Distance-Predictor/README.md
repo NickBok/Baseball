@@ -68,6 +68,9 @@ In Part 3, I use grid search to select the best ML model, as it entails choosing
 In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV), [Randomized Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html), and [Halving Grid Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.HalvingGridSearchCV.html) to achieve peak performance. I finally [Ensemble](https://scikit-learn.org/stable/modules/ensemble.html) all the models together using a [VotingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor). This iterative process maximized predictive accuracy and ultimately delivered valuable insights showing that XGBoost was the best model leading to a MAE of under 10 feet.
 
 
+
+
+
 ```mermaid
   graph TD;
       Preprocessor-->XGBRegressor;
@@ -78,7 +81,7 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
       RandomForestRegressor-->VotingRegressor;
       MLPRegressor-->VotingRegressor;
       GradientBoostingRegressor-->VotingRegressor;
-```git
+```
 
 <table>
   <tr>
