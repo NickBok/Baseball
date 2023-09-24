@@ -74,11 +74,13 @@ graph LR
         subgraph 2[Preprocessor]
             Preprocessor(pre) --> cat;
             Preprocessor(pre) --> num;
+            cat --> preprocessed;
+            num --> preprocessed;
         end
-        Preprocessor-->XGBRegressor;
-        Preprocessor-->RandomForestRegressor;
-        Preprocessor-->MLPRegressor;
-        Preprocessor-->GradientBoostingRegressor;
+        preprocessed-->XGBRegressor;
+        preprocessed-->RandomForestRegressor;
+        preprocessed-->MLPRegressor;
+        preprocessed-->GradientBoostingRegressor;
         XGBRegressor-->VotingRegressor;
         RandomForestRegressor-->VotingRegressor;
         MLPRegressor-->VotingRegressor;
