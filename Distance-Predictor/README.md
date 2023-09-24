@@ -71,7 +71,7 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 ```mermaid
 graph LR
     subgraph 1[System Flow]
-        CP([Command Palette])
+        Preprocessor([Preprocessor])
         subgraph 2[Black Box]
             QA(Quick Addition)
             QM(Macro)
