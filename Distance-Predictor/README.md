@@ -69,7 +69,7 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 
 ```mermaid
-graph UD
+graph TB
       subgraph 2[Preprocessor]
           Preprocessor(RawData) --> CategoricalTransformer;
           Preprocessor(RawData) --> NumericTransformer;
