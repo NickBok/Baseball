@@ -73,12 +73,9 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
     <th>Name</th>
     <td>Jill Smith</td>
   </tr>
-  <tr>
     <td>555-77854</td>
-  </tr>
-  <tr>
-    <td>555-77854</td>
-  </tr>
+
+
 </table>
 
 
