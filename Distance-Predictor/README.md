@@ -75,10 +75,11 @@ graph LR
             Preprocessor(pre) --> CategoricalTransformer;
             Preprocessor(pre) --> NumericTransformer;
             CategoricalTransformer --> OneHotEncoder;
-            OneHotEncoder --> preprocessed;
+            OneHotEncoder --> Stratify;
             NumericTransformer --> RobustScaler;
-            RobustScaler --> preprocessed;
+            RobustScaler --> Stratify;
         end
+        Stratify --> preprocessed;
         preprocessed-->XGBRegressor;
         preprocessed-->RandomForestRegressor;
         preprocessed-->MLPRegressor;
