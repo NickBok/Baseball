@@ -68,7 +68,29 @@ In Part 3, I use grid search to select the best ML model, as it entails choosing
 In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV), [Randomized Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html), and [Halving Grid Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.HalvingGridSearchCV.html) to achieve peak performance. I finally [Ensemble](https://scikit-learn.org/stable/modules/ensemble.html) all the models together using a [VotingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor). This iterative process maximized predictive accuracy and ultimately delivered valuable insights showing that XGBoost was the best model leading to a MAE of under 10 feet.
 
 
-
+```mermaid
+graph LR
+    subgraph 1[System Flow]
+        CP([Command Palette])
+        subgraph 2[Black Box]
+            QA(Quick Addition)
+            QM(Macro)
+        end
+        B[Call Script]
+        C[Open URI]
+        D[Load Workspace]
+        Preprocessor-->XGBRegressor;
+        Preprocessor-->RandomForestRegressor;
+        Preprocessor-->MLPRegressor;
+        Preprocessor-->GradientBoostingRegressor;
+        XGBRegressor-->VotingRegressor;
+        RandomForestRegressor-->VotingRegressor;
+        MLPRegressor-->VotingRegressor;
+        GradientBoostingRegressor-->VotingRegressor;
+    end
+style 1 fill:#333333,stroke:#FFFFFF,stroke-width:2px
+style 2 fill:#222222,stroke:#FFFFFF,stroke-width:1px
+```
 
 
 ```mermaid
