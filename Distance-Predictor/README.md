@@ -35,7 +35,7 @@ In Parts 1 & 2, I explore the data and start to feature engineer to help underst
     </td>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
-        <img src="https://cdn.matt-rickard.com/images/2022/04/Survivorship-bias.svg--2--1.png" alt="WOBA Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/4c2d7703-ec7d-4ec4-8e3c-54b8c5ac9941" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
