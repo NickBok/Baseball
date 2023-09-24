@@ -81,14 +81,12 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/c9379e93-8a35-4644-a747-818d7fb07f1d" alt="WOBA Heatmap" />
       </a>
     </td>
-    <td>
+    <tr>
             <a> <img src="https://github.com/dec1costello/Baseball/assets/79241861/7dc17c83-727e-42c4-87dd-8a20c5f1326f" alt="WOBA Heatmap" /> </a>
-    </td>
+    </tr>
 </tr>
 </tbody>
 </table>
-
-https://github.com/dec1costello/Baseball/assets/79241861/7dc17c83-727e-42c4-87dd-8a20c5f1326f
 
 ## **TODO**
 
