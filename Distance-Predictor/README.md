@@ -70,11 +70,10 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 ```mermaid
 graph LR
-    subgraph 1[System Flow]
-        Preprocessor([Preprocessor])
-        subgraph 2[Black Box]
-            QA(Quick Addition)
-            QM(Macro)
+    subgraph 1[DP]
+        subgraph 2[Preprocessor]
+            Preprocessor(pre) --> cat;
+            Preprocessor(pre) --> num;
         end
         B[Call Script]
         C[Open URI]
