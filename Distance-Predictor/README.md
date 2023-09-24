@@ -86,7 +86,7 @@ graph TB
       MLPRegressor-->VotingRegressor;
       GradientBoostingRegressor-->VotingRegressor;
 
-      VotingRegressor --> Results;
+      VotingRegressor --> Prediction;
 ```
 
 
