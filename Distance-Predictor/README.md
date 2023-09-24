@@ -108,3 +108,4 @@ graph TB
 - Investigate [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) vs [ Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20)
 - [Mermaid ensemble chart](https://towardsdatascience.com/ensemble-learning-using-scikit-learn-85c4531ff86a) 
 - Incorporate [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html)
+- Create a [Stack Ensemble](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html)
