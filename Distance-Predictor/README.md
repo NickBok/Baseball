@@ -70,23 +70,23 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 ```mermaid
 graph TB
-      subgraph 2[Preprocessor]
-          Preprocessor(RawData) --> CategoricalTransformer;
-          Preprocessor(RawData) --> NumericTransformer;
-          CategoricalTransformer --> OneHotEncoder;
-          OneHotEncoder --> Stratify;
-          NumericTransformer --> RobustScaler;
-          RobustScaler --> Stratify;
-      end
-      Stratify --> preprocessed;
-      preprocessed-->XGBRegressor;
-      preprocessed-->RandomForestRegressor;
-      preprocessed-->MLPRegressor;
-      preprocessed-->GradientBoostingRegressor;
+      RawData --> CategoricalTransformer;
+      RawData --> NumericTransformer;
+      CategoricalTransformer --> OneHotEncoder;
+      OneHotEncoder --> Stratify;
+      NumericTransformer --> RobustScaler;
+      RobustScaler --> Stratify;
+
+      Stratify-->XGBRegressor;
+      Stratify-->RandomForestRegressor;
+      Stratify-->MLPRegressor;
+      Stratify-->GradientBoostingRegressor;
       XGBRegressor-->VotingRegressor;
       RandomForestRegressor-->VotingRegressor;
       MLPRegressor-->VotingRegressor;
       GradientBoostingRegressor-->VotingRegressor;
+
+      VotingRegressor --> Results;
 style 1 fill:#333333,stroke:#FFFFFF,stroke-width:2px
 style 2 fill:#222222,stroke:#FFFFFF,stroke-width:1px
 ```
