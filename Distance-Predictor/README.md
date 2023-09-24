@@ -75,9 +75,6 @@ graph LR
             Preprocessor(pre) --> cat;
             Preprocessor(pre) --> num;
         end
-        B[Call Script]
-        C[Open URI]
-        D[Load Workspace]
         Preprocessor-->XGBRegressor;
         Preprocessor-->RandomForestRegressor;
         Preprocessor-->MLPRegressor;
