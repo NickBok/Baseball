@@ -70,19 +70,11 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 <table>
   <tr>
-    <th>Month</th>
-    <th>Savings</th>
+    <td> <img src="https://github.com/dec1costello/Baseball/assets/79241861/33f5e1dc-96ed-4a2c-b8ae-fda7290b9b3f" /></td>
+    <td> <img src="https://github.com/dec1costello/Baseball/assets/79241861/c9379e93-8a35-4644-a747-818d7fb07f1d" alt="WOBA Heatmap" /></td>
   </tr>
   <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-  </tr>
-  <tr>
-    <td colspan="2">Sum: $180</td>
+    <td colspan="2"><img src="https://github.com/dec1costello/Baseball/assets/79241861/7dc17c83-727e-42c4-87dd-8a20c5f1326f" alt="WOBA Heatmap" /> </td>
   </tr>
 </table>
 
