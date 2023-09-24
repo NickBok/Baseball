@@ -74,8 +74,10 @@ graph LR
         subgraph 2[Preprocessor]
             Preprocessor(pre) --> CategoricalTransformer;
             Preprocessor(pre) --> NumericTransformer;
-            CategoricalTransformer --> preprocessed;
-            NumericTransformer --> preprocessed;
+            CategoricalTransformer --> OneHotEncoder;
+            OneHotEncoder --> preprocessed;
+            NumericTransformer --> RobustScaler;
+            RobustScaler --> preprocessed;
         end
         preprocessed-->XGBRegressor;
         preprocessed-->RandomForestRegressor;
