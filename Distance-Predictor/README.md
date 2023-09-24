@@ -72,13 +72,11 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 graph LR
     subgraph 1[Distance Predictor]
         subgraph 2[Preprocessor]
-            Preprocessor(pre) --> Categorical Transformer;
-            Preprocessor(pre) --> Numeric Transformer;
-            Categorical Transformer --> preprocessed;
-            Numeric Transformer --> preprocessed;
+            Preprocessor(pre) --> CategoricalTransformer;
+            Preprocessor(pre) --> NumericTransformer;
+            CategoricalTransformer --> preprocessed;
+            NumericTransformer --> preprocessed;
         end
-
-
         preprocessed-->XGBRegressor;
         preprocessed-->RandomForestRegressor;
         preprocessed-->MLPRegressor;
