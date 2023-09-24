@@ -87,8 +87,6 @@ graph TB
       GradientBoostingRegressor-->VotingRegressor;
 
       VotingRegressor --> Results;
-style 1 fill:#333333,stroke:#FFFFFF,stroke-width:2px
-style 2 fill:#222222,stroke:#FFFFFF,stroke-width:1px
 ```
 
 
