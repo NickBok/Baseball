@@ -70,41 +70,28 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 ```mermaid
 graph LR
-    subgraph 1[Distance Predictor]
-        subgraph 2[Preprocessor]
-            Preprocessor(pre) --> CategoricalTransformer;
-            Preprocessor(pre) --> NumericTransformer;
-            CategoricalTransformer --> OneHotEncoder;
-            OneHotEncoder --> Stratify;
-            NumericTransformer --> RobustScaler;
-            RobustScaler --> Stratify;
-        end
-        Stratify --> preprocessed;
-        preprocessed-->XGBRegressor;
-        preprocessed-->RandomForestRegressor;
-        preprocessed-->MLPRegressor;
-        preprocessed-->GradientBoostingRegressor;
-        XGBRegressor-->VotingRegressor;
-        RandomForestRegressor-->VotingRegressor;
-        MLPRegressor-->VotingRegressor;
-        GradientBoostingRegressor-->VotingRegressor;
-    end
+      subgraph 2[Preprocessor]
+          Preprocessor(pre) --> CategoricalTransformer;
+          Preprocessor(pre) --> NumericTransformer;
+          CategoricalTransformer --> OneHotEncoder;
+          OneHotEncoder --> Stratify;
+          NumericTransformer --> RobustScaler;
+          RobustScaler --> Stratify;
+      end
+      Stratify --> preprocessed;
+      preprocessed-->XGBRegressor;
+      preprocessed-->RandomForestRegressor;
+      preprocessed-->MLPRegressor;
+      preprocessed-->GradientBoostingRegressor;
+      XGBRegressor-->VotingRegressor;
+      RandomForestRegressor-->VotingRegressor;
+      MLPRegressor-->VotingRegressor;
+      GradientBoostingRegressor-->VotingRegressor;
 style 1 fill:#333333,stroke:#FFFFFF,stroke-width:2px
 style 2 fill:#222222,stroke:#FFFFFF,stroke-width:1px
 ```
 
 
-```mermaid
-  graph TD;
-      Preprocessor-->XGBRegressor;
-      Preprocessor-->RandomForestRegressor;
-      Preprocessor-->MLPRegressor;
-      Preprocessor-->GradientBoostingRegressor;
-      XGBRegressor-->VotingRegressor;
-      RandomForestRegressor-->VotingRegressor;
-      MLPRegressor-->VotingRegressor;
-      GradientBoostingRegressor-->VotingRegressor;
-```
 
 <table>
   <tr>
