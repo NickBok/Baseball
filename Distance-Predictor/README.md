@@ -24,22 +24,18 @@ Provided here is a hyperlink to access the processed [CSV dataset](https://drive
 
 In Parts 1 & 2, I explore the data and start to feature engineer to help understand, clean, and refine the dataset. It guides model choice and assumption validation, while also revealing insights through visualization. By addressing data quality and understanding patterns early, here I establish a strong foundation for the rest of my project.
 
-#https://cdn.matt-rickard.com/images/2022/04/Survivorship-bias.svg--2--1.png
-
-#https://github.com/dec1costello/Baseball/assets/79241861/a2c62f05-3ecc-4c4e-891f-9a772f2cdfd7
-
 <table>
 
 <tbody>
   <tr>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-1.ipynb">
-        <img src="https://cdn.matt-rickard.com/images/2022/04/Survivorship-bias.svg--2--1.png" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" />
       </a>
     </td>
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-2.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/b7cee43a-5197-412e-abdb-2f5502605b96" alt="WOBA Heatmap" />
+        <img src="https://cdn.matt-rickard.com/images/2022/04/Survivorship-bias.svg--2--1.png" alt="WOBA Heatmap" />
       </a>
     </td>
 </tr>
