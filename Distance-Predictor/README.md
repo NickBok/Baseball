@@ -70,13 +70,15 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 ```mermaid
 graph LR
-    subgraph 1[DP]
+    subgraph 1[Distance Predictor]
         subgraph 2[Preprocessor]
-            Preprocessor(pre) --> cat;
-            Preprocessor(pre) --> num;
-            cat --> preprocessed;
-            num --> preprocessed;
+            Preprocessor(pre) --> Categorical Transformer;
+            Preprocessor(pre) --> Numeric Transformer;
+            Categorical Transformer --> preprocessed;
+            Numeric Transformer --> preprocessed;
         end
+
+
         preprocessed-->XGBRegressor;
         preprocessed-->RandomForestRegressor;
         preprocessed-->MLPRegressor;
