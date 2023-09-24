@@ -88,11 +88,8 @@ graph TB
 
       VotingRegressor --> Prediction;
 ```
-https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5
-
 
 <table>
-
 <tbody>
   <tr>
     <td>
@@ -103,19 +100,6 @@ https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875
 </tr>
 </tbody>
 </table>
-
-
-<table>
-  <tr>
-    <td> <img src="https://github.com/dec1costello/Baseball/assets/79241861/33f5e1dc-96ed-4a2c-b8ae-fda7290b9b3f" /></td>
-    <td> <img src="https://github.com/dec1costello/Baseball/assets/79241861/c9379e93-8a35-4644-a747-818d7fb07f1d" alt="WOBA Heatmap" /></td>
-  </tr>
-  <tr> <a>
-    <td colspan="2"><img src="https://github.com/dec1costello/Baseball/assets/79241861/51d2e968-f7c0-4b69-bc30-7b45dc2ecb43" alt="cubs vs rocks" /> </td>
-  </a>
-  </tr>
-</table>
-
 
 ## **TODO**
 
