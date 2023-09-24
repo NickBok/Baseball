@@ -70,12 +70,20 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 
 <table>
   <tr>
-    <th>Name</th>
-    <td>Jill Smith</td>
+    <th>Month</th>
+    <th>Savings</th>
   </tr>
-    <td>555-77854</td>
-
-
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sum: $180</td>
+  </tr>
 </table>
 
 
