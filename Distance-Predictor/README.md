@@ -71,7 +71,7 @@ In Parts 4 & 5, I hyper parameter tuned with [Grid Search](https://scikit-learn.
 ```mermaid
 graph TB
       FeatureEngineeredData --> CategoricalTransformer;
-      RawData --> NumericTransformer;
+      FeatureEngineeredData --> NumericTransformer;
       CategoricalTransformer --> OneHotEncoder;
       OneHotEncoder --> Stratify;
       NumericTransformer --> RobustScaler;
