@@ -75,7 +75,7 @@ with tab_faq:
                 
                 st.write('''To train my model, I collected data from [Pybaseball](https://github.com/jldbc/pybaseball), specifically from the 2022 MLB Season. For this specific Streamlit Model I only used the EV, LA, & Pull% as training features, but feel free to check out my [full model](https://github.com/dec1costello/Baseball/tree/main/Distance-Predictor) where I use more existing features and make my own as well 🧪 👨‍🔬 🧬 !''')
 
-            expand_faq4 = st.expander(":baseball: How can the model imporve?", expanded=False)
+            expand_faq4 = st.expander(":baseball: How can the model improve?", expanded=False)
             with expand_faq4:
                 
                 st.write('''Adding a batted ball spin rate feature would greatly improve my model. As [Rapsodo points out](https://rapsodo.com/blogs/baseball/understanding-rapsodo-hitting-data-spin-rate/), total spin is an effective way to show hitters how well they are squaring up the ball. Effectively keeping spin rate below 2500 RPMs of backspin guarantees the best chance at success. Here is an example of how spin rate and exit speed interact for a sample player:''')
