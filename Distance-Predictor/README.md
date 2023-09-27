@@ -1,7 +1,7 @@
 # **Distance Predictor**
 *Author: Declan Costello*
 
-## **[Try Live Light Weight Model Here!](https://light-weight-distance-predictor.streamlit.app/)**
+## **[Try Live Model Here!](https://light-weight-distance-predictor.streamlit.app/)**
 
 ## **Project Overview**
 
