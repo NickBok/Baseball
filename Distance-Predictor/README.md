@@ -103,6 +103,20 @@ graph TB
 
 ## **TODO**
 
+Feature Engineering:
 - Impute missing values
-- More feature engineering: temp and humidity features, possibly wind, day game / night game, starting pitcher ERA, [redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20), ect...
-- Huber loss, quantile loss, SHapley additive explantions, partial dependency plots, lime plots...
+- temp and humidity
+- wind
+- possibly hang time
+- at bats with contact perperson
+- hr per per per at bat contact
+- barrel per he per person at bat contact
+- day game / night gam
+- starting pitcher ERA
+- [redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
+Metrics:
+- Huber loss
+- quantile loss
+- SHapley additive explantions
+- partial dependency plots
+- lime plot
