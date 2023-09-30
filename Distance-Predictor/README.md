@@ -105,14 +105,14 @@ graph TB
 
 Feature Engineering:
 - Impute missing values
-- [Temp and Humidity](https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
+- [Temp and Humidity(https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
 - Wind
 - Hang time
 - Player max la arch
 - At bats with contact per person
 - HR per per per at bat contact
 - Barrel per he per person at bat contact
-- Day game / night gam
+- Day / Night Game
 - Starting pitcher ERA
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
