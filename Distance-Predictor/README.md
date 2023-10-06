@@ -3,7 +3,7 @@
 
 ## **[📌 Try Live Model Here!](https://light-weight-distance-predictor.streamlit.app/)**
 
-**Update (Oct 202#)**: I am excited to announce that Streamlit has selected The Distance Predictor to be hand selected to be in their [gallery of projects](https://streamlit.io/gallery?category=sports-fun)!
+**Update (Oct 2023)**: I am excited to announce that Streamlit has selected The Distance Predictor to be hand selected to be in their [gallery of projects](https://streamlit.io/gallery?category=sports-fun)!
 
 ## **Project Overview**
 
