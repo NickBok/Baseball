@@ -125,3 +125,10 @@ Metrics:
 - Shapely additive explantions
 - Partial dependency plots
 - Lime plot
+- 
+
+Auto EDA:
+- [Ydata-profiling](https://github.com/ydataai)
+- [Dtale](https://github.com/man-group/dtale)
+- [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
+- [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
