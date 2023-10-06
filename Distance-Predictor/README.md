@@ -152,10 +152,6 @@ Feature Engineering:
 Metrics:
 - Huber loss
 - Quantile loss
-- Shapely additive explantions
-- Partial dependency plots
-- Lime plot
-- 
 
 Auto EDA:
 - [Ydata-profiling](https://github.com/ydataai)
