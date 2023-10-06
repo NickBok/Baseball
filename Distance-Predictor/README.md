@@ -82,6 +82,9 @@ In Part 4, I hyper parameter tuned each model with [GridSearch](https://scikit-l
       </a>
     </td>
 </tr>
+  <tr>
+    <img src="https://github.com/dec1costello/Baseball/assets/79241861/d750064b-ba0b-4022-afc9-6599a4ce66bb" alt="WOBA Heatmap" />
+  </tr>
 </tbody>
 </table>
 
