@@ -81,10 +81,17 @@ In Part 4, I hyper parameter tuned each model with [GridSearch](https://scikit-l
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/d750064b-ba0b-4022-afc9-6599a4ce66bb" alt="WOBA Heatmap" />
       </a>
     </td>
-</tr>
-  <tr>
-    <img src="https://github.com/dec1costello/Baseball/assets/79241861/d750064b-ba0b-4022-afc9-6599a4ce66bb" alt="WOBA Heatmap" />
   </tr>
+  <tr>
+    <th colspan="2"> 
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-4.ipynb">
+        <img style="display:block;" width="100%" height="100%" src="https://github.com/dec1costello/Baseball/assets/79241861/0b6dab44-23c0-408a-94cf-582d3ab2198c" alt="WOBA Heatmap" />
+      </a>
+    </th>
+  </tr>
+  <tr>
+
+   
 </tbody>
 </table>
 
