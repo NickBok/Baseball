@@ -153,7 +153,7 @@ Metrics:
 - Huber loss
 - Quantile loss
 - Try to use LIME to measure the magnitude of feature attributions of the finla ensemble because its a model agnostic opposed to SHAP
-  -  explainer = lime.LimeRegressor(voting_regressor)
+  -  explainer = lime.LimeRegressor(er)
   -  explanation = explainer.explain_instance(X_test[0], voting_regressor.predict)
 
 Auto EDA:
