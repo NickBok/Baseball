@@ -137,6 +137,7 @@ graph TB
 
 Feature Engineering:
 - Impute missing values
+- Add [My Custom Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
 - [Temp and Humidity](https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
 - Wind
 - Hang time
