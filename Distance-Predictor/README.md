@@ -150,7 +150,7 @@ Feature Engineering:
 
 
 Metrics:
-- Huber loss
+- [Huber loss](https://medium.com/analytics-vidhya/a-comprehensive-guide-to-loss-functions-part-1-regression-ff8b847675d6)
 - Quantile loss
 - Try to use LIME to measure the magnitude of feature attributions of the finla ensemble because its a model agnostic opposed to SHAP
   -  explainer = lime.LimeRegressor(er)
