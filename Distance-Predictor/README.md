@@ -158,6 +158,7 @@ Metrics:
   -  explanation = explainer.explain_instance(X_test[0], voting_regressor.predict)
 
 Auto EDA:
+- [IPyWidgets](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
 - [Ydata-profiling](https://github.com/ydataai)
 - [Dtale](https://github.com/man-group/dtale)
 - [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
