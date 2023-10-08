@@ -150,7 +150,7 @@ Feature Engineering:
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
 
-Metrics:
+[Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html):
 - [Huber loss](https://medium.com/analytics-vidhya/a-comprehensive-guide-to-loss-functions-part-1-regression-ff8b847675d6)
 - Quantile loss
 - Try to use LIME to measure the magnitude of feature attributions of the finla ensemble because its a model agnostic opposed to SHAP
