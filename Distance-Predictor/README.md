@@ -63,7 +63,7 @@ In Part 3, I use grid search to select the best ML model, as it entails choosing
 </tbody>
 </table>
 
-## **Part 4, [Optimization](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-4.ipynb)**
+## **Part 4, [Optimization](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-4.ipynb) & [SHAP](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-SHAP.ipynb)**
 
 In Part 4, I hyper parameter tuned each model with [GridSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV), [RandomizedSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html), [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html), and [HalvingGrid Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.HalvingGridSearchCV.html) to achieve peak performance. I finally get the magnitude of feature attributions with [SHap's game theoretic approach](https://shap.readthedocs.io/en/latest/) to identified bias and trends for each model.
 
