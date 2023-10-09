@@ -26,6 +26,7 @@
 - [Dtale](https://github.com/man-group/dtale)
 - [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
 - [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
+- [Vizro](https://github.com/mckinsey/vizro)
 
 # Note, When using cat feats in SHAP, it kills almost every feature... code that does so when used in part 4 / shap:
 
