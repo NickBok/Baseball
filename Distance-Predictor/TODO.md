@@ -26,3 +26,26 @@ Auto EDA:
 - [Dtale](https://github.com/man-group/dtale)
 - [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
 - [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
+
+Not, When using cat feats in SHAP, it kills almost every feature... code that does so when used in part 4 / shap:
+feature_cols = ['launch_angle','launch_speed','pfx_x','pfx_z',"release_speed","domed", "spray_angle",'is_barrel','Pop','pull_percent','home_team',"stand","p_throws",'grouped_pitch_type','fav_platoon_split_for_batter']
+
+X = data.loc[:, feature_cols]
+
+# Assuming 'pitch_type' is the categorical feature
+categorical_cols = ['home_team',"stand","p_throws",'grouped_pitch_type','fav_platoon_split_for_batter']
+X = pd.get_dummies(X, columns=categorical_cols, drop_first=True)
+
+target_cols = ['hit_distance_sc']
+y = data.loc[:, target_cols]
+
+X_train, X_valid, y_train, y_valid = train_test_split(X, y, train_size=0.95, test_size=0.05, random_state=0)
+
+ter_xg = XGBRegressor(learning_rate=0.1, max_depth=5, min_child_weight=1, subsample=1.0, n_estimators=10).fit(X_train, y_train.values.ravel())
+
+explainer = shap.TreeExplainer(ter_xg, DMatrix=True)
+
+shap_values = explainer(X_valid)
+
+shap.initjs()
+
