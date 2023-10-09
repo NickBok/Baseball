@@ -15,6 +15,7 @@
 # redo df style
 - https://karbartolome.quarto.pub/the-grammar-of-tables/
 - https://github.com/znstrider/plottable
+- https://plottable.readthedocs.io/en/latest/
 
 
 # [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html):
