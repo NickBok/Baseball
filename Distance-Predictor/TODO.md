@@ -12,8 +12,14 @@
 - Starting pitcher ERA
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
+# redo df style
+- https://karbartolome.quarto.pub/the-grammar-of-tables/
+- https://github.com/znstrider/plottable
+
 
 # [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html):
+- more outliers - https://github.com/cleanlab/cleanlab
+- more bias help / LIME https://github.com/Trusted-AI/AIF360/blob/master/examples/demo_lime.ipynb
 - [Huber loss](https://medium.com/analytics-vidhya/a-comprehensive-guide-to-loss-functions-part-1-regression-ff8b847675d6)
 - Quantile loss
 - Try to use LIME to measure the magnitude of feature attributions of the finla ensemble because its a model agnostic opposed to SHAP
