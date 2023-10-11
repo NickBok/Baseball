@@ -23,9 +23,6 @@
 - more bias help / LIME https://github.com/Trusted-AI/AIF360/blob/master/examples/demo_lime.ipynb
 - [Huber loss](https://medium.com/analytics-vidhya/a-comprehensive-guide-to-loss-functions-part-1-regression-ff8b847675d6)
 - Quantile loss
-- Try to use LIME to measure the magnitude of feature attributions of the finla ensemble because its a model agnostic opposed to SHAP
-  -  explainer = lime.LimeRegressor(er)
-  -  explanation = explainer.explain_instance(X_test[0], voting_regressor.predict)
 
 # Auto EDA:
 - [IPyWidgets](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
