@@ -15,6 +15,9 @@
 
 # [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
 
+# **[- look into continue fitting an already fitted model](https://github.com/BexTuychiev/medium_stories/blob/master/2023/5_may/7_sklearn_pro/notebook.ipynb)**
+
+
 # [Change all hyperparams to OPTUNA](https://towardsdatascience.com/why-is-everyone-at-kaggle-obsessed-with-optuna-for-hyperparameter-tuning-7608fdca337c)
 
 
