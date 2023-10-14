@@ -4,7 +4,8 @@
 - [Temp and Humidity](https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
 - Wind
 - Hang time
-- Player max la arch
+- Use plate_x not pfx_x
+- [Player max la arch](https://drive.google.com/file/d/1fC974yEShTAJ6PXWgbamLlriaFUzjf1r/view)
 - At bats with contact per person
 - HR per player per at bat contact
 - Barrel per he per person at bat contact
