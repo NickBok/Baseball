@@ -13,6 +13,9 @@
 - Starting pitcher ERA
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
+# [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
+
+
 # redo df style
 - https://karbartolome.quarto.pub/the-grammar-of-tables/
 - https://github.com/znstrider/plottable
