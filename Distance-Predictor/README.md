@@ -134,7 +134,7 @@ graph TB
 
 ## **[Use Cases](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb)**
 
-I finally pu the [ensemble model](https://scikit-learn.org/stable/modules/ensemble.html) to good use by exploring optimal PFX location, optimal Laucnh Angle by Exit Veloicity, and peak at what it takes for a baseball to go the same distance at different stadium elevations.
+I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensemble.html) to good use by exploring optimal PFX location, optimal Laucnh Angle by Exit Veloicity, and peak at what it takes for a baseball to go the same distance at different stadium elevations.
 
 
 <table>
