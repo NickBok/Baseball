@@ -95,7 +95,7 @@ In Part 4, I hyper parameter tuned each model with [GridSearch](https://scikit-l
 </tbody>
 </table>
 
-## **Part 5, [Results](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb) & [Use Cases](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb)**
+## **Part 5, [Results](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb)**
 
 In Part 5, I finally [Ensemble](https://scikit-learn.org/stable/modules/ensemble.html) the top four preforming models together using a [VotingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy and ultimately delivered valuable insights leading to a MAE under 10 feet.
 
@@ -127,6 +127,20 @@ graph TB
     <td>
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
         <img src="https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5" alt="Event Scatter" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+## **[Use Cases](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb)**
+
+<table>
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/9fdeb950-71e4-491b-a296-481af8a1076a" alt="Event Scatter" />
       </a>
     </td>
 </tr>
