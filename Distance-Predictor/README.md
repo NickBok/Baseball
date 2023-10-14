@@ -136,7 +136,7 @@ graph TB
 
 I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensemble.html) to good use by exploring Optimal PFX, Optimal Launch Angles by Exit Veloicity, and Optimal Stadium Distance Variation.
 
-
+<div align="center">
 <table>
 <tbody>
   <tr>
@@ -148,5 +148,6 @@ I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensem
 </tr>
 </tbody>
 </table>
+</div>
 
 ## **[TODO](https://github.com/dec1costello/Baseball/blob/main/Distance-Predictor/TODO.md)**
