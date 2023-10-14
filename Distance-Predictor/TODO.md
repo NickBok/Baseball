@@ -15,6 +15,8 @@
 
 # [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
 
+# [Change all hyperparams to OPTUNA](https://towardsdatascience.com/why-is-everyone-at-kaggle-obsessed-with-optuna-for-hyperparameter-tuning-7608fdca337c)
+
 
 # redo df style
 - https://karbartolome.quarto.pub/the-grammar-of-tables/
