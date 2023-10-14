@@ -134,7 +134,7 @@ graph TB
 
 ## **[Use Cases](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb)**
 
-I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensemble.html) to good use by exploring Optimal PFX, Optimal Launch Angles by Exit Veloicity, and Stadium Distance Variation.
+I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensemble.html) to good use by exploring Optimal PFX, Optimal Launch Angles by Exit Veloicity, and Optimal Stadium Distance Variation.
 
 
 <table>
