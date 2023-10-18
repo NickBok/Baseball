@@ -5,6 +5,13 @@
 - compare to https://www.omnicalculator.com/physics/projectile-motion
 - fix all vars to mean and plot ev on x axis, launch angle on y axis, and color for distance
 
+# model viz
+- https://stackoverflow.com/questions/51323595/plot-a-single-xgboost-decision-tree
+- https://github.com/parrt/dtreeviz/blob/master/notebooks/dtreeviz_xgboost_visualisations.ipynb
+
+# good part 4 /5 example i should follow
+-https://github.com/ciaran-grant/expected-vaep-model/blob/main/notebooks/process/4_model_evaluation.ipynb
+
 # Feature Engineering:
 - Impute missing values
 - Add [My Custom Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
@@ -34,6 +41,7 @@
 
 
 # [Change all hyperparams to OPTUNA](https://towardsdatascience.com/why-is-everyone-at-kaggle-obsessed-with-optuna-for-hyperparameter-tuning-7608fdca337c)
+- https://www.youtube.com/watch?v=TgdEZ6LFj-I
 
 
 # redo df style
