@@ -34,6 +34,7 @@
 - Quantile loss
 
 # Auto EDA:
+- [mito](https://github.com/mito-ds/mito)
 - [IPyWidgets](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
 - [Ydata-profiling](https://github.com/ydataai)
 - [Dtale](https://github.com/man-group/dtale)
