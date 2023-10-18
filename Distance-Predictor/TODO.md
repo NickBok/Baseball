@@ -1,3 +1,10 @@
+# Dr Dan feedback
+- more [partil dependence plots](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_partial_dependence_visualization_api.html#sphx-glr-auto-examples-miscellaneous-plot-partial-dependence-visualization-api-py)
+- add event location plot to readme
+- clarify i am attempting to predict 1st batted ball contact with ground (or fielder that touches it or stand for homerun, so data set is flawed to begin with in terms of targets im training with, singles doubles most ikely too short and even hrs hitting stands first before flat ground)for readme and app,
+- compare to https://www.omnicalculator.com/physics/projectile-motion
+- fix all vars to mean and plot ev on x axis, launch angle on y axis, and color for distance
+
 # Feature Engineering:
 - Impute missing values
 - Add [My Custom Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
