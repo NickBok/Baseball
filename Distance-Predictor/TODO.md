@@ -21,6 +21,14 @@
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
 # [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
+- oblivious trees
+- add light gb, that groups feats unlike xg boost, unless using hist param (add that model too
+- try yellow brick librayr
+- try xgbfir lib
+- make sure i change custim 1 hot encode for breaking, fast, and change up to true cat, do not want unneeded bias
+- do not need to impute for xgboost
+- double checking im only uing boolean int and float data tyoes
+- xgb only uses spares matrices for memory
 
 # **[- look into continue fitting an already fitted model](https://github.com/BexTuychiev/medium_stories/blob/master/2023/5_may/7_sklearn_pro/notebook.ipynb)**
 
