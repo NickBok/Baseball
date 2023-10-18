@@ -23,7 +23,7 @@
 # [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
 - oblivious trees
 - add light gb, that groups feats unlike xg boost, unless using hist param (add that model too
-- try yellow brick librayr
+- try [yellow brick librayr](https://rebeccabilbro.github.io/xgboost-and-yellowbrick/)
 - try xgbfir lib
 - make sure i change custim 1 hot encode for breaking, fast, and change up to true cat, do not want unneeded bias
 - do not need to impute for xgboost
