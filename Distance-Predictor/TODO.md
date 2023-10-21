@@ -27,6 +27,8 @@
 - Starting pitcher ERA
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
+# [redo part 3 w lazy predict](https://lazypredict.readthedocs.io/en/latest/index.html)
+
 # [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
 - oblivious trees
 - add light gb, that groups feats unlike xg boost, unless using hist param (add that model too
