@@ -1,19 +1,14 @@
-# Dr Dan feedback
-- more [partil dependence plots](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_partial_dependence_visualization_api.html#sphx-glr-auto-examples-miscellaneous-plot-partial-dependence-visualization-api-py)
-- add event location plot to readme
-- clarify i am attempting to predict 1st batted ball contact with ground (or fielder that touches it or stand for homerun, so data set is flawed to begin with in terms of targets im training with, singles doubles most ikely too short and even hrs hitting stands first before flat ground)for readme and app,
-- compare to https://www.omnicalculator.com/physics/projectile-motion
-- fix all vars to mean and plot ev on x axis, launch angle on y axis, and color for distance
+# Part 1 - Auto EDA & Outliers:
+- [CleanLab](https://github.com/cleanlab/cleanlab)
+- [Mito](https://github.com/mito-ds/mito)
+- [IPyWidgets](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
+- [Ydata-profiling](https://github.com/ydataai)
+- [Dtale](https://github.com/man-group/dtale)
+- [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
+- [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
+- [Vizro](https://github.com/mckinsey/vizro)
 
-# model viz
-- https://stackoverflow.com/questions/51323595/plot-a-single-xgboost-decision-tree
-- https://github.com/parrt/dtreeviz/blob/master/notebooks/dtreeviz_xgboost_visualisations.ipynb
-
-# good part 4 /5 example i should follow
--https://github.com/ciaran-grant/expected-vaep-model/blob/main/notebooks/process/4_model_evaluation.ipynb
-
-# Feature Engineering:
-- Impute missing values
+# Part 2- Feature Engineering Ideas:
 - Add [My Custom Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
 - [Temp and Humidity](https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
 - Wind
@@ -27,65 +22,26 @@
 - Starting pitcher ERA
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
-# [redo part 3 w lazy predict](https://lazypredict.readthedocs.io/en/latest/index.html)
+# Part 4 - Model Viz & Metrics & MOre Models
+- [Single XGBoost Decision Tree](https://stackoverflow.com/questions/51323595/plot-a-single-xgboost-decision-tree)
+- [DTreeViz](https://github.com/parrt/dtreeviz/blob/master/notebooks/dtreeviz_xgboost_visualisations.ipynb)
+- [Part 4 Restructure](https://github.com/ciaran-grant/expected-vaep-model/blob/main/notebooks/process/4_model_evaluation.ipynb)
+- [Metrics (this might be a part 5 thing for total ensemble opposed to one model)](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html)
+- XGB
+  - double checking im only uing boolean int and float data tyoes
+  - xgb only uses spares matrices for memory
 
-# [Add cb.CatBoostRegressor() to Part 3](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
-- oblivious trees
-- add light gb, that groups feats unlike xg boost, unless using hist param (add that model too
-- try [yellow brick librayr](https://rebeccabilbro.github.io/xgboost-and-yellowbrick/)
-- try xgbfir lib
-- make sure i change custim 1 hot encode for breaking, fast, and change up to true cat, do not want unneeded bias
-- do not need to impute for xgboost
-- double checking im only uing boolean int and float data tyoes
-- xgb only uses spares matrices for memory
-
-# **[- look into continue fitting an already fitted model](https://github.com/BexTuychiev/medium_stories/blob/master/2023/5_may/7_sklearn_pro/notebook.ipynb)**
-
-
-# [Change all hyperparams to OPTUNA](https://towardsdatascience.com/why-is-everyone-at-kaggle-obsessed-with-optuna-for-hyperparameter-tuning-7608fdca337c)
-- https://www.youtube.com/watch?v=TgdEZ6LFj-I
-
-
-# redo df style
-- https://karbartolome.quarto.pub/the-grammar-of-tables/
-- https://github.com/znstrider/plottable
-- https://plottable.readthedocs.io/en/latest/
-
-
-# [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html):
-- more outliers - https://github.com/cleanlab/cleanlab
-- more bias help / LIME https://github.com/Trusted-AI/AIF360/blob/master/examples/demo_lime.ipynb
+# Part 5 -  [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html) & Redo DFs
+- [Sample Table](https://karbartolome.quarto.pub/the-grammar-of-tables/)
+- [Plottable](https://github.com/znstrider/plottable)
+- [Plottable Docs](https://plottable.readthedocs.io/en/latest/)
+- [Add CatBoostRegressor()](https://towardsdatascience.com/catboost-regression-in-6-minutes-3487f3e5b329)
 - [Huber loss](https://medium.com/analytics-vidhya/a-comprehensive-guide-to-loss-functions-part-1-regression-ff8b847675d6)
 - Quantile loss
 
-# Auto EDA:
-- [mito](https://github.com/mito-ds/mito)
-- [IPyWidgets](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
-- [Ydata-profiling](https://github.com/ydataai)
-- [Dtale](https://github.com/man-group/dtale)
-- [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
-- [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
-- [Vizro](https://github.com/mckinsey/vizro)
-
-# Note, When using cat feats in SHAP, it kills almost every feature... code that does so when used in part 4 / shap:
-
-feature_cols = ['launch_angle','launch_speed','pfx_x','pfx_z',"release_speed","domed", "spray_angle",'is_barrel','Pop','pull_percent','home_team',"stand","p_throws",'grouped_pitch_type','fav_platoon_split_for_batter']
-
-X = data.loc[:, feature_cols]
-
-categorical_cols = ['home_team',"stand","p_throws",'grouped_pitch_type','fav_platoon_split_for_batter']
-X = pd.get_dummies(X, columns=categorical_cols, drop_first=True)
-
-target_cols = ['hit_distance_sc']
-y = data.loc[:, target_cols]
-
-X_train, X_valid, y_train, y_valid = train_test_split(X, y, train_size=0.95, test_size=0.05, random_state=0)
-
-ter_xg = XGBRegressor(learning_rate=0.1, max_depth=5, min_child_weight=1, subsample=1.0, n_estimators=10).fit(X_train, y_train.values.ravel())
-
-explainer = shap.TreeExplainer(ter_xg, DMatrix=True)
-
-shap_values = explainer(X_valid)
-
-shap.initjs()
-
+# Random
+- [YellowBrick](https://rebeccabilbro.github.io/xgboost-and-yellowbrick/)
+- [Add more partial dependence plots](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_partial_dependence_visualization_api.html#sphx-glr-auto-examples-miscellaneous-plot-partial-dependence-visualization-api-py)
+- Add event location plot to readme
+- Compare to https://www.omnicalculator.com/physics/projectile-motion
+- Fix all vars to mean and plot ev on x axis, launch angle on y axis, and color for distance
