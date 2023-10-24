@@ -35,6 +35,7 @@
   - xgb only uses spares matrices for memory
 
 # Part 5 -  [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html) & Redo DFs
+- Add top 8 Models to Ensemble
 - [Sample Table](https://karbartolome.quarto.pub/the-grammar-of-tables/)
 - [Plottable](https://github.com/znstrider/plottable)
 - [Plottable Docs](https://plottable.readthedocs.io/en/latest/)
