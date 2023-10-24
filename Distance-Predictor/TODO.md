@@ -22,6 +22,9 @@
 - Starting pitcher ERA
 - [Redo barrel cassifications](https://x.com/JonPgh/status/1706726176973373637?s=20)
 
+# Part 3 - Rerun LazyPredict
+- Scale as well as one hot encode beforehand
+
 # Part 4 - Model Viz & Metrics & More Models
 - [Single XGBoost Decision Tree](https://stackoverflow.com/questions/51323595/plot-a-single-xgboost-decision-tree)
 - [DTreeViz](https://github.com/parrt/dtreeviz/blob/master/notebooks/dtreeviz_xgboost_visualisations.ipynb)
