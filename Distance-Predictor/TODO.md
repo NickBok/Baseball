@@ -40,6 +40,7 @@
 - Quantile loss
 
 # Random
+- [Rapids](https://rapids.ai/)
 - [YellowBrick](https://rebeccabilbro.github.io/xgboost-and-yellowbrick/)
 - [Add more partial dependence plots](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_partial_dependence_visualization_api.html#sphx-glr-auto-examples-miscellaneous-plot-partial-dependence-visualization-api-py)
 - Add event location plot to readme
