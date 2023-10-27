@@ -67,20 +67,6 @@ In Part 3, I use grid search to select the best ML model, as it entails choosing
 
 In Part 4, I used [Optuna](https://optuna.org/) alongside [sklearn](https://scikit-learn.org/stable/modules/grid_search.html) to achieve optimized hyperparameters for each model. I finally get the magnitude of feature attributions with [SHap's game theoretic approach](https://shap.readthedocs.io/en/latest/) to identified bias and trends.
 
-<div align="center">
-<table>
-<tbody>
-  <tr>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/17d94cc7-0e12-4df8-bf19-0d8314092fd1" alt="Event Scatter" />
-      </a>
-    </td>
-</tr>
-</tbody>
-</table>
-</div>
-
 ## **Part 5, [Results](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb)**
 
 In Part 5, I finally [Ensemble](https://scikit-learn.org/stable/modules/ensemble.html) the top four preforming models together using a [VotingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy and ultimately delivered valuable insights leading to a MAE under 10 feet.
