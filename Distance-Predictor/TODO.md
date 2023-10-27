@@ -12,6 +12,7 @@
 - Add [My Custom Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
 - [Temp and Humidity](https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
 - Wind
+- Player height, weight, throwing arm
 - Hang time
 - Use plate_x not pfx_x
 - [Player max la arch](https://drive.google.com/file/d/1fC974yEShTAJ6PXWgbamLlriaFUzjf1r/view)
