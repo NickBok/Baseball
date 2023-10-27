@@ -67,30 +67,18 @@ In Part 3, I use grid search to select the best ML model, as it entails choosing
 
 In Part 4, I hyper parameter tuned each model with [GridSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV), [RandomizedSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html), [BayesSearchCV](https://scikit-optimize.github.io/stable/modules/generated/skopt.BayesSearchCV.html), and [HalvingGrid Search](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.HalvingGridSearchCV.html) to achieve peak performance. I finally get the magnitude of feature attributions with [SHap's game theoretic approach](https://shap.readthedocs.io/en/latest/) to identified bias and trends for each model.
 
+<div align="center">
 <table>
-
 <tbody>
   <tr>
-    <td>
+    <td> 
       <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-4.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/829c3717-b04d-4573-8a44-83befe5ac6ba" />
-      </a>
-    </td>
-    <td>
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-4.ipynb">
-        <img src="https://github.com/dec1costello/Baseball/assets/79241861/d750064b-ba0b-4022-afc9-6599a4ce66bb" alt="WOBA Heatmap" />
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/17d94cc7-0e12-4df8-bf19-0d8314092fd1" alt="WOBA Heatmap" />
       </a>
     </td>
   </tr>
   <tr>
-    <th colspan="2"> 
-      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-4.ipynb">
-        <img style="display:block;" width="100%"  src="https://github.com/dec1costello/Baseball/assets/79241861/17d94cc7-0e12-4df8-bf19-0d8314092fd1" alt="WOBA Heatmap" />
-      </a>
-    </th>
-  </tr>
-  <tr>
-
+</div>
    
 </tbody>
 </table>
