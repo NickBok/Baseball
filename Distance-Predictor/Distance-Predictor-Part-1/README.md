@@ -11,3 +11,5 @@ In Parts 1, I explore the data to help understand, clean, and refine the dataset
 - [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
 - [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
 - [Vizro](https://github.com/mckinsey/vizro)
+- Add event location plot to this readme
+
