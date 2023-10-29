@@ -1,13 +1,3 @@
-# Part 1 - Auto EDA & Outliers:
-- [CleanLab](https://github.com/cleanlab/cleanlab)
-- [Mito](https://github.com/mito-ds/mito)
-- [IPyWidgets](https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6)
-- [Ydata-profiling](https://github.com/ydataai)
-- [Dtale](https://github.com/man-group/dtale)
-- [Sweetviz](https://towardsdatascience.com/sweetviz-automated-eda-in-python-a97e4cabacde)
-- [Autoviz](https://towardsdatascience.com/autoviz-automatically-visualize-any-dataset-75876a4eede4)
-- [Vizro](https://github.com/mckinsey/vizro)
-
 # Part 2- Feature Engineering Ideas:
 - Add [My Custom Park Factors](https://github.com/dec1costello/Baseball/tree/main/Stadiums)
 - [Temp and Humidity](https://towardsdatascience.com/getting-weather-data-in-3-easy-steps-8dc10cc5c859)
