@@ -121,5 +121,3 @@ I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensem
 </tbody>
 </table>
 </div>
-
-## **[TODO](https://github.com/dec1costello/Baseball/blob/main/Distance-Predictor/TODO.md)**
