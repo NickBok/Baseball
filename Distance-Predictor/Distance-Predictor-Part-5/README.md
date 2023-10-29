@@ -1,4 +1,55 @@
+In Part 5, I finally [Ensemble](https://scikit-learn.org/stable/modules/ensemble.html) the top four preforming models together using a [VotingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy and ultimately delivered valuable insights leading to a MAE under 10 feet.
 
+```mermaid
+graph TB
+      FeatureEngineeredData --> CategoricalTransformer;
+      FeatureEngineeredData --> NumericTransformer;
+      CategoricalTransformer --> OneHotEncoder;
+      OneHotEncoder --> Stratify;
+      NumericTransformer --> RobustScaler;
+      RobustScaler --> Stratify;
+
+      Stratify-->XGBRegressor;
+      Stratify-->RandomForestRegressor;
+      Stratify-->MLPRegressor;
+      Stratify-->GradientBoostingRegressor;
+      XGBRegressor-->VotingRegressor;
+      RandomForestRegressor-->VotingRegressor;
+      MLPRegressor-->VotingRegressor;
+      GradientBoostingRegressor-->VotingRegressor;
+
+      VotingRegressor --> Prediction;
+```
+
+<table>
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-5.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/8f8cfd75-0b0e-42fd-a875-fa9cd5f295f5" alt="Event Scatter" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+
+## **[Use Cases](https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb)**
+
+I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensemble.html) to good use by exploring Optimal PFX for Distance, Optimal Launch Angles by Exit Veloicity for Distance, and Stadium Distance Variation.
+
+<div align="center">
+<table>
+<tbody>
+  <tr>
+    <td>
+      <a href="https://nbviewer.org/github/dec1costello/Baseball/blob/main/Distance-Predictor/Distance-Predictor-Part-UseCase.ipynb">
+        <img src="https://github.com/dec1costello/Baseball/assets/79241861/9fdeb950-71e4-491b-a296-481af8a1076a" alt="Event Scatter" />
+      </a>
+    </td>
+</tr>
+</tbody>
+</table>
+</div>
 
 # Part 5 -  [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html) & Redo DFs
 - Add top 8 Models to Ensemble
