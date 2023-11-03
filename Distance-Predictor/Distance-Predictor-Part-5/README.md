@@ -1,3 +1,5 @@
+# **Part 5**
+
 In Part 5, I finally [Ensemble](https://scikit-learn.org/stable/modules/ensemble.html) the top four preforming models together using a [VotingRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor) to minimize [Bias](https://towardsdatascience.com/a-quickstart-guide-to-uprooting-model-bias-f4465c8e84bc) and [Variance](https://x.com/akshay_pachaar/status/1703757251474063861?s=20). This iterative process maximized predictive accuracy and ultimately delivered valuable insights leading to a MAE under 10 feet.
 
 ```mermaid
@@ -51,7 +53,8 @@ I finally put the [ensemble model](https://scikit-learn.org/stable/modules/ensem
 </table>
 </div>
 
-# Part 5 -  [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html) & Redo DFs
+# TODO -  [Metrics](https://docs.seldon.io/projects/alibi/en/stable/overview/high_level.html) & Redo DFs
+- Throw in [SageMaker](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-python-sdk/scikit_learn_randomforest/Sklearn_on_SageMaker_end2end.html)
 - Add top 8 Models to Ensemble
 - [Sample Table](https://karbartolome.quarto.pub/the-grammar-of-tables/)
 - [Plottable](https://github.com/znstrider/plottable)
